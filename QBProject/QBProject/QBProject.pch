@@ -1,0 +1,45 @@
+//
+//  QBProject.pch
+//  QBProject
+//
+//  Created by QuincyYan on 16/6/11.
+//  Copyright © 2016年 Quincy Yan. All rights reserved.
+//
+
+#ifndef QBProject_pch
+#define QBProject_pch
+
+/// Vender
+#import <Masonry.h>
+#import <YYModel.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <ReactiveCocoa.h>
+#import "TPKeyboardAvoidingTableView.h"
+#import "TPKeyboardAvoidingScrollView.h"
+
+/// Framework
+#import "TYKitHeader.h"
+
+/// Delegate
+#define QBSharedAppDelegate  ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+/// Servers
+/// Dev
+/// Release
+static inline NSString* serverURL(){
+    NSArray *serverList = @[@"http://127.0.0.1:3000/",
+                            @"http://120.26.121.182:3000/"];
+    return serverList[1];
+}
+
+/// Mapping
+static inline NSDictionary *viewModelMapping() {
+    return @{@"QBTestViewModel":@"QBTestController"};
+};
+
+/// Colors
+
+
+
+#endif /* QBProject_pch */

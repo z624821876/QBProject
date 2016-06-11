@@ -1,0 +1,1264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F4860871D0BCEFF001316C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860861D0BCEFF001316C0 /* main.m */; };
+		2F48608A1D0BCEFF001316C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860891D0BCEFF001316C0 /* AppDelegate.m */; };
+		2F4860921D0BCEFF001316C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4860911D0BCEFF001316C0 /* Assets.xcassets */; };
+		2F4860A01D0BCEFF001316C0 /* QBProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48609F1D0BCEFF001316C0 /* QBProjectTests.m */; };
+		2F4860AB1D0BCEFF001316C0 /* QBProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860AA1D0BCEFF001316C0 /* QBProjectUITests.m */; };
+		2F4861BF1D0BCF82001316C0 /* QBErrorService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860CC1D0BCF82001316C0 /* QBErrorService.m */; };
+		2F4861C01D0BCF82001316C0 /* QBRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860CE1D0BCF82001316C0 /* QBRequestService.m */; };
+		2F4861E31D0BCF82001316C0 /* NSArray+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48611C1D0BCF82001316C0 /* NSArray+TYKit.m */; };
+		2F4861E41D0BCF82001316C0 /* NSDate+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48611E1D0BCF82001316C0 /* NSDate+TYKit.m */; };
+		2F4861E51D0BCF82001316C0 /* NSDictionary+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861201D0BCF82001316C0 /* NSDictionary+Encrypt.m */; };
+		2F4861E61D0BCF82001316C0 /* NSDictionary+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861221D0BCF82001316C0 /* NSDictionary+TYKit.m */; };
+		2F4861E71D0BCF82001316C0 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861241D0BCF82001316C0 /* NSObject+Property.m */; };
+		2F4861E81D0BCF82001316C0 /* NSObject+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861261D0BCF82001316C0 /* NSObject+TYKit.m */; };
+		2F4861E91D0BCF82001316C0 /* NSString+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861281D0BCF82001316C0 /* NSString+TYKit.m */; };
+		2F4861EA1D0BCF82001316C0 /* UIColor+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48612A1D0BCF82001316C0 /* UIColor+TYKit.m */; };
+		2F4861EB1D0BCF82001316C0 /* UIImage+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48612C1D0BCF82001316C0 /* UIImage+TYKit.m */; };
+		2F4861EC1D0BCF82001316C0 /* NSMutableAttributedString+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861301D0BCF82001316C0 /* NSMutableAttributedString+TYKit.m */; };
+		2F4861ED1D0BCF82001316C0 /* UIButton+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861321D0BCF82001316C0 /* UIButton+TYKit.m */; };
+		2F4861EE1D0BCF82001316C0 /* UIImageView+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861341D0BCF82001316C0 /* UIImageView+TYKit.m */; };
+		2F4861EF1D0BCF82001316C0 /* UILabel+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861361D0BCF82001316C0 /* UILabel+TYKit.m */; };
+		2F4861F01D0BCF82001316C0 /* UIScrollView+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861381D0BCF82001316C0 /* UIScrollView+TYKit.m */; };
+		2F4861F11D0BCF82001316C0 /* UITextField+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48613A1D0BCF82001316C0 /* UITextField+TYKit.m */; };
+		2F4861F21D0BCF82001316C0 /* UIView+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48613C1D0BCF82001316C0 /* UIView+TYKit.m */; };
+		2F4861F31D0BCF82001316C0 /* UIViewController+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48613E1D0BCF82001316C0 /* UIViewController+TYKit.m */; };
+		2F4861F41D0BCF82001316C0 /* TYBarEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861431D0BCF82001316C0 /* TYBarEntity.m */; };
+		2F4861F51D0BCF82001316C0 /* TYNavigationStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861471D0BCF82001316C0 /* TYNavigationStack.m */; };
+		2F4861F61D0BCF82001316C0 /* TYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861491D0BCF82001316C0 /* TYRouter.m */; };
+		2F4861F71D0BCF82001316C0 /* TYViewModelServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48614C1D0BCF82001316C0 /* TYViewModelServiceImpl.m */; };
+		2F4861F81D0BCF82001316C0 /* TYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861511D0BCF82001316C0 /* TYCollectionViewCell.m */; };
+		2F4861F91D0BCF82001316C0 /* TYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861531D0BCF82001316C0 /* TYTableViewCell.m */; };
+		2F4861FA1D0BCF82001316C0 /* TYCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861551D0BCF82001316C0 /* TYCollectionViewController.m */; };
+		2F4861FB1D0BCF82001316C0 /* TYNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861571D0BCF82001316C0 /* TYNaviController.m */; };
+		2F4861FC1D0BCF82001316C0 /* TYScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861591D0BCF82001316C0 /* TYScrollController.m */; };
+		2F4861FD1D0BCF82001316C0 /* TYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48615B1D0BCF82001316C0 /* TYTabbarController.m */; };
+		2F4861FE1D0BCF82001316C0 /* TYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48615D1D0BCF82001316C0 /* TYTableViewController.m */; };
+		2F4861FF1D0BCF82001316C0 /* TYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48615F1D0BCF82001316C0 /* TYView.m */; };
+		2F4862001D0BCF82001316C0 /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861611D0BCF82001316C0 /* TYViewController.m */; };
+		2F4862011D0BCF82001316C0 /* TY_navibar_return_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861631D0BCF82001316C0 /* TY_navibar_return_arrow.png */; };
+		2F4862021D0BCF82001316C0 /* TYCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861651D0BCF82001316C0 /* TYCollectionViewModel.m */; };
+		2F4862031D0BCF82001316C0 /* TYTabbarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861671D0BCF82001316C0 /* TYTabbarViewModel.m */; };
+		2F4862041D0BCF82001316C0 /* TYTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861691D0BCF82001316C0 /* TYTableViewModel.m */; };
+		2F4862051D0BCF82001316C0 /* TYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48616B1D0BCF82001316C0 /* TYViewModel.m */; };
+		2F4862061D0BCF82001316C0 /* TYLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48616F1D0BCF82001316C0 /* TYLocationService.m */; };
+		2F4862071D0BCF82001316C0 /* TYRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861711D0BCF82001316C0 /* TYRequestService.m */; };
+		2F4862081D0BCF82001316C0 /* TYLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861771D0BCF82001316C0 /* TYLineButton.m */; };
+		2F4862091D0BCF82001316C0 /* TYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861791D0BCF82001316C0 /* TYTextView.m */; };
+		2F48620A1D0BCF82001316C0 /* TYHTTPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48617C1D0BCF82001316C0 /* TYHTTPController.m */; };
+		2F48620B1D0BCF82001316C0 /* TYHTTPProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48617E1D0BCF82001316C0 /* TYHTTPProgressBar.m */; };
+		2F48620C1D0BCF82001316C0 /* TYHTTPViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861801D0BCF82001316C0 /* TYHTTPViewModel.m */; };
+		2F48620D1D0BCF82001316C0 /* tyloding_baby_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861821D0BCF82001316C0 /* tyloding_baby_eye.png */; };
+		2F48620E1D0BCF82001316C0 /* tyloding_baby_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861831D0BCF82001316C0 /* tyloding_baby_face.png */; };
+		2F48620F1D0BCF82001316C0 /* tyloding_baby_plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861841D0BCF82001316C0 /* tyloding_baby_plane.png */; };
+		2F4862101D0BCF82001316C0 /* UIView+TYLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861861D0BCF82001316C0 /* UIView+TYLoading.m */; };
+		2F4862111D0BCF82001316C0 /* TYMasker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861891D0BCF82001316C0 /* TYMasker.m */; };
+		2F4862121D0BCF82001316C0 /* TYNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48618C1D0BCF82001316C0 /* TYNavigation.m */; };
+		2F4862131D0BCF82001316C0 /* TYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48618E1D0BCF82001316C0 /* TYNavigationViewController.m */; };
+		2F4862141D0BCF82001316C0 /* UINavigationBar+TYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861901D0BCF82001316C0 /* UINavigationBar+TYKit.m */; };
+		2F4862151D0BCF82001316C0 /* TYPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861931D0BCF82001316C0 /* TYPopover.m */; };
+		2F4862161D0BCF82001316C0 /* TYPullLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861961D0BCF82001316C0 /* TYPullLoadingView.m */; };
+		2F4862171D0BCF82001316C0 /* TYPullReloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861981D0BCF82001316C0 /* TYPullReloadView.m */; };
+		2F4862181D0BCF82001316C0 /* UIScrollView+TYPullLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48619B1D0BCF82001316C0 /* UIScrollView+TYPullLoading.m */; };
+		2F4862191D0BCF82001316C0 /* UIScrollView+TYPullReload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48619D1D0BCF82001316C0 /* UIScrollView+TYPullReload.m */; };
+		2F48621A1D0BCF82001316C0 /* mm_loading_spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F48619F1D0BCF82001316C0 /* mm_loading_spot.png */; };
+		2F48621B1D0BCF82001316C0 /* mm_loading_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861A01D0BCF82001316C0 /* mm_loading_text.png */; };
+		2F48621C1D0BCF82001316C0 /* mm_network_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861A11D0BCF82001316C0 /* mm_network_empty.png */; };
+		2F48621D1D0BCF82001316C0 /* mm_network_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861A21D0BCF82001316C0 /* mm_network_error.png */; };
+		2F48621E1D0BCF82001316C0 /* mm_network_fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4861A31D0BCF82001316C0 /* mm_network_fail.png */; };
+		2F48621F1D0BCF82001316C0 /* UIView+TYStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861A51D0BCF82001316C0 /* UIView+TYStatus.m */; };
+		2F4862201D0BCF82001316C0 /* TYTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861A81D0BCF82001316C0 /* TYTabbar.m */; };
+		2F4862211D0BCF82001316C0 /* TYTabbarEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861AA1D0BCF82001316C0 /* TYTabbarEntity.m */; };
+		2F4862221D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861AF1D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.m */; };
+		2F4862231D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861B11D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.m */; };
+		2F4862241D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861B31D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m */; };
+		2F4862251D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861B51D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		2F48622B1D0BD0ED001316C0 /* QBTestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48622A1D0BD0ED001316C0 /* QBTestViewModel.m */; };
+		2F48622E1D0BD0FC001316C0 /* QBTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48622D1D0BD0FC001316C0 /* QBTestController.m */; };
+		56CB3F23374290EDEE41DDEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C8E7F7CAE5071A262BB239 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F48609C1D0BCEFF001316C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F48607A1D0BCEFF001316C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F4860811D0BCEFF001316C0;
+			remoteInfo = QBProject;
+		};
+		2F4860A71D0BCEFF001316C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F48607A1D0BCEFF001316C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F4860811D0BCEFF001316C0;
+			remoteInfo = QBProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024129AA76790C88E9A0F1D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4860821D0BCEFF001316C0 /* QBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4860861D0BCEFF001316C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F4860881D0BCEFF001316C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F4860891D0BCEFF001316C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F4860911D0BCEFF001316C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F4860961D0BCEFF001316C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F48609B1D0BCEFF001316C0 /* QBProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F48609F1D0BCEFF001316C0 /* QBProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBProjectTests.m; sourceTree = "<group>"; };
+		2F4860A11D0BCEFF001316C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4860A61D0BCEFF001316C0 /* QBProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4860AA1D0BCEFF001316C0 /* QBProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBProjectUITests.m; sourceTree = "<group>"; };
+		2F4860AC1D0BCEFF001316C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4860B81D0BCF79001316C0 /* QBProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBProject.pch; sourceTree = "<group>"; };
+		2F4860CB1D0BCF82001316C0 /* QBErrorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBErrorService.h; sourceTree = "<group>"; };
+		2F4860CC1D0BCF82001316C0 /* QBErrorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBErrorService.m; sourceTree = "<group>"; };
+		2F4860CD1D0BCF82001316C0 /* QBRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBRequestService.h; sourceTree = "<group>"; };
+		2F4860CE1D0BCF82001316C0 /* QBRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBRequestService.m; sourceTree = "<group>"; };
+		2F48611B1D0BCF82001316C0 /* NSArray+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TYKit.h"; sourceTree = "<group>"; };
+		2F48611C1D0BCF82001316C0 /* NSArray+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TYKit.m"; sourceTree = "<group>"; };
+		2F48611D1D0BCF82001316C0 /* NSDate+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TYKit.h"; sourceTree = "<group>"; };
+		2F48611E1D0BCF82001316C0 /* NSDate+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TYKit.m"; sourceTree = "<group>"; };
+		2F48611F1D0BCF82001316C0 /* NSDictionary+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Encrypt.h"; sourceTree = "<group>"; };
+		2F4861201D0BCF82001316C0 /* NSDictionary+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Encrypt.m"; sourceTree = "<group>"; };
+		2F4861211D0BCF82001316C0 /* NSDictionary+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TYKit.h"; sourceTree = "<group>"; };
+		2F4861221D0BCF82001316C0 /* NSDictionary+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TYKit.m"; sourceTree = "<group>"; };
+		2F4861231D0BCF82001316C0 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		2F4861241D0BCF82001316C0 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		2F4861251D0BCF82001316C0 /* NSObject+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TYKit.h"; sourceTree = "<group>"; };
+		2F4861261D0BCF82001316C0 /* NSObject+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TYKit.m"; sourceTree = "<group>"; };
+		2F4861271D0BCF82001316C0 /* NSString+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TYKit.h"; sourceTree = "<group>"; };
+		2F4861281D0BCF82001316C0 /* NSString+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYKit.m"; sourceTree = "<group>"; };
+		2F4861291D0BCF82001316C0 /* UIColor+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TYKit.h"; sourceTree = "<group>"; };
+		2F48612A1D0BCF82001316C0 /* UIColor+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TYKit.m"; sourceTree = "<group>"; };
+		2F48612B1D0BCF82001316C0 /* UIImage+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TYKit.h"; sourceTree = "<group>"; };
+		2F48612C1D0BCF82001316C0 /* UIImage+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TYKit.m"; sourceTree = "<group>"; };
+		2F48612D1D0BCF82001316C0 /* TYCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCategoryHeader.h; sourceTree = "<group>"; };
+		2F48612F1D0BCF82001316C0 /* NSMutableAttributedString+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TYKit.h"; sourceTree = "<group>"; };
+		2F4861301D0BCF82001316C0 /* NSMutableAttributedString+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TYKit.m"; sourceTree = "<group>"; };
+		2F4861311D0BCF82001316C0 /* UIButton+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TYKit.h"; sourceTree = "<group>"; };
+		2F4861321D0BCF82001316C0 /* UIButton+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TYKit.m"; sourceTree = "<group>"; };
+		2F4861331D0BCF82001316C0 /* UIImageView+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TYKit.h"; sourceTree = "<group>"; };
+		2F4861341D0BCF82001316C0 /* UIImageView+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TYKit.m"; sourceTree = "<group>"; };
+		2F4861351D0BCF82001316C0 /* UILabel+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TYKit.h"; sourceTree = "<group>"; };
+		2F4861361D0BCF82001316C0 /* UILabel+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TYKit.m"; sourceTree = "<group>"; };
+		2F4861371D0BCF82001316C0 /* UIScrollView+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TYKit.h"; sourceTree = "<group>"; };
+		2F4861381D0BCF82001316C0 /* UIScrollView+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TYKit.m"; sourceTree = "<group>"; };
+		2F4861391D0BCF82001316C0 /* UITextField+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TYKit.h"; sourceTree = "<group>"; };
+		2F48613A1D0BCF82001316C0 /* UITextField+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TYKit.m"; sourceTree = "<group>"; };
+		2F48613B1D0BCF82001316C0 /* UIView+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYKit.h"; sourceTree = "<group>"; };
+		2F48613C1D0BCF82001316C0 /* UIView+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYKit.m"; sourceTree = "<group>"; };
+		2F48613D1D0BCF82001316C0 /* UIViewController+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TYKit.h"; sourceTree = "<group>"; };
+		2F48613E1D0BCF82001316C0 /* UIViewController+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TYKit.m"; sourceTree = "<group>"; };
+		2F48613F1D0BCF82001316C0 /* TYKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYKitHeader.h; sourceTree = "<group>"; };
+		2F4861421D0BCF82001316C0 /* TYBarEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBarEntity.h; sourceTree = "<group>"; };
+		2F4861431D0BCF82001316C0 /* TYBarEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBarEntity.m; sourceTree = "<group>"; };
+		2F4861451D0BCF82001316C0 /* TYBindViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBindViewModel.h; sourceTree = "<group>"; };
+		2F4861461D0BCF82001316C0 /* TYNavigationStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNavigationStack.h; sourceTree = "<group>"; };
+		2F4861471D0BCF82001316C0 /* TYNavigationStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNavigationStack.m; sourceTree = "<group>"; };
+		2F4861481D0BCF82001316C0 /* TYRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRouter.h; sourceTree = "<group>"; };
+		2F4861491D0BCF82001316C0 /* TYRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYRouter.m; sourceTree = "<group>"; };
+		2F48614A1D0BCF82001316C0 /* TYViewModelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewModelService.h; sourceTree = "<group>"; };
+		2F48614B1D0BCF82001316C0 /* TYViewModelServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewModelServiceImpl.h; sourceTree = "<group>"; };
+		2F48614C1D0BCF82001316C0 /* TYViewModelServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewModelServiceImpl.m; sourceTree = "<group>"; };
+		2F48614D1D0BCF82001316C0 /* TYMVVMBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMVVMBaseHeader.h; sourceTree = "<group>"; };
+		2F4861501D0BCF82001316C0 /* TYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCollectionViewCell.h; sourceTree = "<group>"; };
+		2F4861511D0BCF82001316C0 /* TYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCollectionViewCell.m; sourceTree = "<group>"; };
+		2F4861521D0BCF82001316C0 /* TYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTableViewCell.h; sourceTree = "<group>"; };
+		2F4861531D0BCF82001316C0 /* TYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTableViewCell.m; sourceTree = "<group>"; };
+		2F4861541D0BCF82001316C0 /* TYCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCollectionViewController.h; sourceTree = "<group>"; };
+		2F4861551D0BCF82001316C0 /* TYCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCollectionViewController.m; sourceTree = "<group>"; };
+		2F4861561D0BCF82001316C0 /* TYNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNaviController.h; sourceTree = "<group>"; };
+		2F4861571D0BCF82001316C0 /* TYNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNaviController.m; sourceTree = "<group>"; };
+		2F4861581D0BCF82001316C0 /* TYScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYScrollController.h; sourceTree = "<group>"; };
+		2F4861591D0BCF82001316C0 /* TYScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYScrollController.m; sourceTree = "<group>"; };
+		2F48615A1D0BCF82001316C0 /* TYTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabbarController.h; sourceTree = "<group>"; };
+		2F48615B1D0BCF82001316C0 /* TYTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabbarController.m; sourceTree = "<group>"; };
+		2F48615C1D0BCF82001316C0 /* TYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTableViewController.h; sourceTree = "<group>"; };
+		2F48615D1D0BCF82001316C0 /* TYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTableViewController.m; sourceTree = "<group>"; };
+		2F48615E1D0BCF82001316C0 /* TYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYView.h; sourceTree = "<group>"; };
+		2F48615F1D0BCF82001316C0 /* TYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYView.m; sourceTree = "<group>"; };
+		2F4861601D0BCF82001316C0 /* TYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
+		2F4861611D0BCF82001316C0 /* TYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
+		2F4861631D0BCF82001316C0 /* TY_navibar_return_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TY_navibar_return_arrow.png; sourceTree = "<group>"; };
+		2F4861641D0BCF82001316C0 /* TYCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCollectionViewModel.h; sourceTree = "<group>"; };
+		2F4861651D0BCF82001316C0 /* TYCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCollectionViewModel.m; sourceTree = "<group>"; };
+		2F4861661D0BCF82001316C0 /* TYTabbarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabbarViewModel.h; sourceTree = "<group>"; };
+		2F4861671D0BCF82001316C0 /* TYTabbarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabbarViewModel.m; sourceTree = "<group>"; };
+		2F4861681D0BCF82001316C0 /* TYTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTableViewModel.h; sourceTree = "<group>"; };
+		2F4861691D0BCF82001316C0 /* TYTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTableViewModel.m; sourceTree = "<group>"; };
+		2F48616A1D0BCF82001316C0 /* TYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewModel.h; sourceTree = "<group>"; };
+		2F48616B1D0BCF82001316C0 /* TYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewModel.m; sourceTree = "<group>"; };
+		2F48616C1D0BCF82001316C0 /* TYPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPrefix.h; sourceTree = "<group>"; };
+		2F48616E1D0BCF82001316C0 /* TYLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLocationService.h; sourceTree = "<group>"; };
+		2F48616F1D0BCF82001316C0 /* TYLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLocationService.m; sourceTree = "<group>"; };
+		2F4861701D0BCF82001316C0 /* TYRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRequestService.h; sourceTree = "<group>"; };
+		2F4861711D0BCF82001316C0 /* TYRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYRequestService.m; sourceTree = "<group>"; };
+		2F4861721D0BCF82001316C0 /* TYServiceHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYServiceHeader.h; sourceTree = "<group>"; };
+		2F4861751D0BCF82001316C0 /* TYCommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCommonUI.h; sourceTree = "<group>"; };
+		2F4861761D0BCF82001316C0 /* TYLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLineButton.h; sourceTree = "<group>"; };
+		2F4861771D0BCF82001316C0 /* TYLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLineButton.m; sourceTree = "<group>"; };
+		2F4861781D0BCF82001316C0 /* TYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextView.h; sourceTree = "<group>"; };
+		2F4861791D0BCF82001316C0 /* TYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextView.m; sourceTree = "<group>"; };
+		2F48617B1D0BCF82001316C0 /* TYHTTPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHTTPController.h; sourceTree = "<group>"; };
+		2F48617C1D0BCF82001316C0 /* TYHTTPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHTTPController.m; sourceTree = "<group>"; };
+		2F48617D1D0BCF82001316C0 /* TYHTTPProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHTTPProgressBar.h; sourceTree = "<group>"; };
+		2F48617E1D0BCF82001316C0 /* TYHTTPProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHTTPProgressBar.m; sourceTree = "<group>"; };
+		2F48617F1D0BCF82001316C0 /* TYHTTPViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHTTPViewModel.h; sourceTree = "<group>"; };
+		2F4861801D0BCF82001316C0 /* TYHTTPViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHTTPViewModel.m; sourceTree = "<group>"; };
+		2F4861821D0BCF82001316C0 /* tyloding_baby_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyloding_baby_eye.png; sourceTree = "<group>"; };
+		2F4861831D0BCF82001316C0 /* tyloding_baby_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyloding_baby_face.png; sourceTree = "<group>"; };
+		2F4861841D0BCF82001316C0 /* tyloding_baby_plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tyloding_baby_plane.png; sourceTree = "<group>"; };
+		2F4861851D0BCF82001316C0 /* UIView+TYLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYLoading.h"; sourceTree = "<group>"; };
+		2F4861861D0BCF82001316C0 /* UIView+TYLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYLoading.m"; sourceTree = "<group>"; };
+		2F4861881D0BCF82001316C0 /* TYMasker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMasker.h; sourceTree = "<group>"; };
+		2F4861891D0BCF82001316C0 /* TYMasker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMasker.m; sourceTree = "<group>"; };
+		2F48618B1D0BCF82001316C0 /* TYNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNavigation.h; sourceTree = "<group>"; };
+		2F48618C1D0BCF82001316C0 /* TYNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNavigation.m; sourceTree = "<group>"; };
+		2F48618D1D0BCF82001316C0 /* TYNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNavigationViewController.h; sourceTree = "<group>"; };
+		2F48618E1D0BCF82001316C0 /* TYNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNavigationViewController.m; sourceTree = "<group>"; };
+		2F48618F1D0BCF82001316C0 /* UINavigationBar+TYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TYKit.h"; sourceTree = "<group>"; };
+		2F4861901D0BCF82001316C0 /* UINavigationBar+TYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TYKit.m"; sourceTree = "<group>"; };
+		2F4861921D0BCF82001316C0 /* TYPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPopover.h; sourceTree = "<group>"; };
+		2F4861931D0BCF82001316C0 /* TYPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPopover.m; sourceTree = "<group>"; };
+		2F4861951D0BCF82001316C0 /* TYPullLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPullLoadingView.h; sourceTree = "<group>"; };
+		2F4861961D0BCF82001316C0 /* TYPullLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPullLoadingView.m; sourceTree = "<group>"; };
+		2F4861971D0BCF82001316C0 /* TYPullReloadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPullReloadView.h; sourceTree = "<group>"; };
+		2F4861981D0BCF82001316C0 /* TYPullReloadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPullReloadView.m; sourceTree = "<group>"; };
+		2F4861991D0BCF82001316C0 /* TYReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYReloader.h; sourceTree = "<group>"; };
+		2F48619A1D0BCF82001316C0 /* UIScrollView+TYPullLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TYPullLoading.h"; sourceTree = "<group>"; };
+		2F48619B1D0BCF82001316C0 /* UIScrollView+TYPullLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TYPullLoading.m"; sourceTree = "<group>"; };
+		2F48619C1D0BCF82001316C0 /* UIScrollView+TYPullReload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TYPullReload.h"; sourceTree = "<group>"; };
+		2F48619D1D0BCF82001316C0 /* UIScrollView+TYPullReload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TYPullReload.m"; sourceTree = "<group>"; };
+		2F48619F1D0BCF82001316C0 /* mm_loading_spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm_loading_spot.png; sourceTree = "<group>"; };
+		2F4861A01D0BCF82001316C0 /* mm_loading_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm_loading_text.png; sourceTree = "<group>"; };
+		2F4861A11D0BCF82001316C0 /* mm_network_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm_network_empty.png; sourceTree = "<group>"; };
+		2F4861A21D0BCF82001316C0 /* mm_network_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm_network_error.png; sourceTree = "<group>"; };
+		2F4861A31D0BCF82001316C0 /* mm_network_fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm_network_fail.png; sourceTree = "<group>"; };
+		2F4861A41D0BCF82001316C0 /* UIView+TYStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYStatus.h"; sourceTree = "<group>"; };
+		2F4861A51D0BCF82001316C0 /* UIView+TYStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYStatus.m"; sourceTree = "<group>"; };
+		2F4861A71D0BCF82001316C0 /* TYTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabbar.h; sourceTree = "<group>"; };
+		2F4861A81D0BCF82001316C0 /* TYTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabbar.m; sourceTree = "<group>"; };
+		2F4861A91D0BCF82001316C0 /* TYTabbarEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabbarEntity.h; sourceTree = "<group>"; };
+		2F4861AA1D0BCF82001316C0 /* TYTabbarEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabbarEntity.m; sourceTree = "<group>"; };
+		2F4861AB1D0BCF82001316C0 /* TYUIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUIHeader.h; sourceTree = "<group>"; };
+		2F4861AE1D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		2F4861AF1D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		2F4861B01D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		2F4861B11D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		2F4861B21D0BCF82001316C0 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		2F4861B31D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		2F4861B41D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		2F4861B51D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		2F4861B61D0BCF82001316C0 /* TYVenderHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVenderHeader.h; sourceTree = "<group>"; };
+		2F4862291D0BD0ED001316C0 /* QBTestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTestViewModel.h; sourceTree = "<group>"; };
+		2F48622A1D0BD0ED001316C0 /* QBTestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTestViewModel.m; sourceTree = "<group>"; };
+		2F48622C1D0BD0FC001316C0 /* QBTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTestController.h; sourceTree = "<group>"; };
+		2F48622D1D0BD0FC001316C0 /* QBTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTestController.m; sourceTree = "<group>"; };
+		D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D9C8E7F7CAE5071A262BB239 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F48607F1D0BCEFF001316C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CB3F23374290EDEE41DDEE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4860981D0BCEFF001316C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4860A31D0BCEFF001316C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AEED4C22B432E9D4E4BB36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8E7F7CAE5071A262BB239 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F4860791D0BCEFF001316C0 = {
+			isa = PBXGroup;
+			children = (
+				2F4860841D0BCEFF001316C0 /* QBProject */,
+				2F48609E1D0BCEFF001316C0 /* QBProjectTests */,
+				2F4860A91D0BCEFF001316C0 /* QBProjectUITests */,
+				2F4860831D0BCEFF001316C0 /* Products */,
+				EC9AEBBC68FEEDE5B52CBCE3 /* Pods */,
+				10AEED4C22B432E9D4E4BB36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F4860831D0BCEFF001316C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F4860821D0BCEFF001316C0 /* QBProject.app */,
+				2F48609B1D0BCEFF001316C0 /* QBProjectTests.xctest */,
+				2F4860A61D0BCEFF001316C0 /* QBProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F4860841D0BCEFF001316C0 /* QBProject */ = {
+			isa = PBXGroup;
+			children = (
+				2F4860881D0BCEFF001316C0 /* AppDelegate.h */,
+				2F4860891D0BCEFF001316C0 /* AppDelegate.m */,
+				2F4860B81D0BCF79001316C0 /* QBProject.pch */,
+				2F4861181D0BCF82001316C0 /* TYKit */,
+				2F4860B91D0BCF82001316C0 /* Class */,
+				2F4860851D0BCEFF001316C0 /* Supporting Files */,
+			);
+			path = QBProject;
+			sourceTree = "<group>";
+		};
+		2F4860851D0BCEFF001316C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F4860911D0BCEFF001316C0 /* Assets.xcassets */,
+				2F4860961D0BCEFF001316C0 /* Info.plist */,
+				2F4860861D0BCEFF001316C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F48609E1D0BCEFF001316C0 /* QBProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F48609F1D0BCEFF001316C0 /* QBProjectTests.m */,
+				2F4860A11D0BCEFF001316C0 /* Info.plist */,
+			);
+			path = QBProjectTests;
+			sourceTree = "<group>";
+		};
+		2F4860A91D0BCEFF001316C0 /* QBProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F4860AA1D0BCEFF001316C0 /* QBProjectUITests.m */,
+				2F4860AC1D0BCEFF001316C0 /* Info.plist */,
+			);
+			path = QBProjectUITests;
+			sourceTree = "<group>";
+		};
+		2F4860B91D0BCF82001316C0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2F4860BA1D0BCF82001316C0 /* Image */,
+				2F4860BE1D0BCF82001316C0 /* Local */,
+				2F4860BF1D0BCF82001316C0 /* Model */,
+				2F4860CA1D0BCF82001316C0 /* Service */,
+				2F4860CF1D0BCF82001316C0 /* Vender */,
+				2F4860D01D0BCF82001316C0 /* View */,
+				2F4860FF1D0BCF82001316C0 /* ViewModel */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2F4860BA1D0BCF82001316C0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2F4860BE1D0BCF82001316C0 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		2F4860BF1D0BCF82001316C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F4860CA1D0BCF82001316C0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2F4860CB1D0BCF82001316C0 /* QBErrorService.h */,
+				2F4860CC1D0BCF82001316C0 /* QBErrorService.m */,
+				2F4860CD1D0BCF82001316C0 /* QBRequestService.h */,
+				2F4860CE1D0BCF82001316C0 /* QBRequestService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2F4860CF1D0BCF82001316C0 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		2F4860D01D0BCF82001316C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F4860D11D0BCF82001316C0 /* Cell */,
+				2F48622C1D0BD0FC001316C0 /* QBTestController.h */,
+				2F48622D1D0BD0FC001316C0 /* QBTestController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F4860D11D0BCF82001316C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2F4860FF1D0BCF82001316C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F4862291D0BD0ED001316C0 /* QBTestViewModel.h */,
+				2F48622A1D0BD0ED001316C0 /* QBTestViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F4861181D0BCF82001316C0 /* TYKit */ = {
+			isa = PBXGroup;
+			children = (
+				2F48613F1D0BCF82001316C0 /* TYKitHeader.h */,
+				2F48616C1D0BCF82001316C0 /* TYPrefix.h */,
+				2F4861191D0BCF82001316C0 /* TYCategory */,
+				2F4861401D0BCF82001316C0 /* TYMVVMBase */,
+				2F48616D1D0BCF82001316C0 /* TYService */,
+				2F4861731D0BCF82001316C0 /* TYUI */,
+				2F4861AC1D0BCF82001316C0 /* TYVender */,
+			);
+			path = TYKit;
+			sourceTree = "<group>";
+		};
+		2F4861191D0BCF82001316C0 /* TYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2F48612D1D0BCF82001316C0 /* TYCategoryHeader.h */,
+				2F48611A1D0BCF82001316C0 /* Foundation */,
+				2F48612E1D0BCF82001316C0 /* UIKit */,
+			);
+			path = TYCategory;
+			sourceTree = "<group>";
+		};
+		2F48611A1D0BCF82001316C0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2F48611B1D0BCF82001316C0 /* NSArray+TYKit.h */,
+				2F48611C1D0BCF82001316C0 /* NSArray+TYKit.m */,
+				2F48611D1D0BCF82001316C0 /* NSDate+TYKit.h */,
+				2F48611E1D0BCF82001316C0 /* NSDate+TYKit.m */,
+				2F48611F1D0BCF82001316C0 /* NSDictionary+Encrypt.h */,
+				2F4861201D0BCF82001316C0 /* NSDictionary+Encrypt.m */,
+				2F4861211D0BCF82001316C0 /* NSDictionary+TYKit.h */,
+				2F4861221D0BCF82001316C0 /* NSDictionary+TYKit.m */,
+				2F4861231D0BCF82001316C0 /* NSObject+Property.h */,
+				2F4861241D0BCF82001316C0 /* NSObject+Property.m */,
+				2F4861251D0BCF82001316C0 /* NSObject+TYKit.h */,
+				2F4861261D0BCF82001316C0 /* NSObject+TYKit.m */,
+				2F4861271D0BCF82001316C0 /* NSString+TYKit.h */,
+				2F4861281D0BCF82001316C0 /* NSString+TYKit.m */,
+				2F4861291D0BCF82001316C0 /* UIColor+TYKit.h */,
+				2F48612A1D0BCF82001316C0 /* UIColor+TYKit.m */,
+				2F48612B1D0BCF82001316C0 /* UIImage+TYKit.h */,
+				2F48612C1D0BCF82001316C0 /* UIImage+TYKit.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		2F48612E1D0BCF82001316C0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2F48612F1D0BCF82001316C0 /* NSMutableAttributedString+TYKit.h */,
+				2F4861301D0BCF82001316C0 /* NSMutableAttributedString+TYKit.m */,
+				2F4861311D0BCF82001316C0 /* UIButton+TYKit.h */,
+				2F4861321D0BCF82001316C0 /* UIButton+TYKit.m */,
+				2F4861331D0BCF82001316C0 /* UIImageView+TYKit.h */,
+				2F4861341D0BCF82001316C0 /* UIImageView+TYKit.m */,
+				2F4861351D0BCF82001316C0 /* UILabel+TYKit.h */,
+				2F4861361D0BCF82001316C0 /* UILabel+TYKit.m */,
+				2F4861371D0BCF82001316C0 /* UIScrollView+TYKit.h */,
+				2F4861381D0BCF82001316C0 /* UIScrollView+TYKit.m */,
+				2F4861391D0BCF82001316C0 /* UITextField+TYKit.h */,
+				2F48613A1D0BCF82001316C0 /* UITextField+TYKit.m */,
+				2F48613B1D0BCF82001316C0 /* UIView+TYKit.h */,
+				2F48613C1D0BCF82001316C0 /* UIView+TYKit.m */,
+				2F48613D1D0BCF82001316C0 /* UIViewController+TYKit.h */,
+				2F48613E1D0BCF82001316C0 /* UIViewController+TYKit.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2F4861401D0BCF82001316C0 /* TYMVVMBase */ = {
+			isa = PBXGroup;
+			children = (
+				2F48614D1D0BCF82001316C0 /* TYMVVMBaseHeader.h */,
+				2F4861411D0BCF82001316C0 /* Entity */,
+				2F4861441D0BCF82001316C0 /* Service */,
+				2F48614E1D0BCF82001316C0 /* View */,
+				2F4861621D0BCF82001316C0 /* ViewModel */,
+			);
+			path = TYMVVMBase;
+			sourceTree = "<group>";
+		};
+		2F4861411D0BCF82001316C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861421D0BCF82001316C0 /* TYBarEntity.h */,
+				2F4861431D0BCF82001316C0 /* TYBarEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2F4861441D0BCF82001316C0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861451D0BCF82001316C0 /* TYBindViewModel.h */,
+				2F4861461D0BCF82001316C0 /* TYNavigationStack.h */,
+				2F4861471D0BCF82001316C0 /* TYNavigationStack.m */,
+				2F4861481D0BCF82001316C0 /* TYRouter.h */,
+				2F4861491D0BCF82001316C0 /* TYRouter.m */,
+				2F48614A1D0BCF82001316C0 /* TYViewModelService.h */,
+				2F48614B1D0BCF82001316C0 /* TYViewModelServiceImpl.h */,
+				2F48614C1D0BCF82001316C0 /* TYViewModelServiceImpl.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2F48614E1D0BCF82001316C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F48614F1D0BCF82001316C0 /* Cell */,
+				2F4861541D0BCF82001316C0 /* TYCollectionViewController.h */,
+				2F4861551D0BCF82001316C0 /* TYCollectionViewController.m */,
+				2F4861561D0BCF82001316C0 /* TYNaviController.h */,
+				2F4861571D0BCF82001316C0 /* TYNaviController.m */,
+				2F4861581D0BCF82001316C0 /* TYScrollController.h */,
+				2F4861591D0BCF82001316C0 /* TYScrollController.m */,
+				2F48615A1D0BCF82001316C0 /* TYTabbarController.h */,
+				2F48615B1D0BCF82001316C0 /* TYTabbarController.m */,
+				2F48615C1D0BCF82001316C0 /* TYTableViewController.h */,
+				2F48615D1D0BCF82001316C0 /* TYTableViewController.m */,
+				2F48615E1D0BCF82001316C0 /* TYView.h */,
+				2F48615F1D0BCF82001316C0 /* TYView.m */,
+				2F4861601D0BCF82001316C0 /* TYViewController.h */,
+				2F4861611D0BCF82001316C0 /* TYViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F48614F1D0BCF82001316C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861501D0BCF82001316C0 /* TYCollectionViewCell.h */,
+				2F4861511D0BCF82001316C0 /* TYCollectionViewCell.m */,
+				2F4861521D0BCF82001316C0 /* TYTableViewCell.h */,
+				2F4861531D0BCF82001316C0 /* TYTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2F4861621D0BCF82001316C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861631D0BCF82001316C0 /* TY_navibar_return_arrow.png */,
+				2F4861641D0BCF82001316C0 /* TYCollectionViewModel.h */,
+				2F4861651D0BCF82001316C0 /* TYCollectionViewModel.m */,
+				2F4861661D0BCF82001316C0 /* TYTabbarViewModel.h */,
+				2F4861671D0BCF82001316C0 /* TYTabbarViewModel.m */,
+				2F4861681D0BCF82001316C0 /* TYTableViewModel.h */,
+				2F4861691D0BCF82001316C0 /* TYTableViewModel.m */,
+				2F48616A1D0BCF82001316C0 /* TYViewModel.h */,
+				2F48616B1D0BCF82001316C0 /* TYViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F48616D1D0BCF82001316C0 /* TYService */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861721D0BCF82001316C0 /* TYServiceHeader.h */,
+				2F48616E1D0BCF82001316C0 /* TYLocationService.h */,
+				2F48616F1D0BCF82001316C0 /* TYLocationService.m */,
+				2F4861701D0BCF82001316C0 /* TYRequestService.h */,
+				2F4861711D0BCF82001316C0 /* TYRequestService.m */,
+			);
+			path = TYService;
+			sourceTree = "<group>";
+		};
+		2F4861731D0BCF82001316C0 /* TYUI */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861AB1D0BCF82001316C0 /* TYUIHeader.h */,
+				2F4861741D0BCF82001316C0 /* TYCommonUI */,
+				2F48617A1D0BCF82001316C0 /* TYHTTPController */,
+				2F4861811D0BCF82001316C0 /* TYLoding */,
+				2F4861871D0BCF82001316C0 /* TYMasker */,
+				2F48618A1D0BCF82001316C0 /* TYNavigation */,
+				2F4861911D0BCF82001316C0 /* TYPopover */,
+				2F4861941D0BCF82001316C0 /* TYReloader */,
+				2F48619E1D0BCF82001316C0 /* TYStatus */,
+				2F4861A61D0BCF82001316C0 /* TYTabbar */,
+			);
+			path = TYUI;
+			sourceTree = "<group>";
+		};
+		2F4861741D0BCF82001316C0 /* TYCommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861751D0BCF82001316C0 /* TYCommonUI.h */,
+				2F4861761D0BCF82001316C0 /* TYLineButton.h */,
+				2F4861771D0BCF82001316C0 /* TYLineButton.m */,
+				2F4861781D0BCF82001316C0 /* TYTextView.h */,
+				2F4861791D0BCF82001316C0 /* TYTextView.m */,
+			);
+			path = TYCommonUI;
+			sourceTree = "<group>";
+		};
+		2F48617A1D0BCF82001316C0 /* TYHTTPController */ = {
+			isa = PBXGroup;
+			children = (
+				2F48617B1D0BCF82001316C0 /* TYHTTPController.h */,
+				2F48617C1D0BCF82001316C0 /* TYHTTPController.m */,
+				2F48617D1D0BCF82001316C0 /* TYHTTPProgressBar.h */,
+				2F48617E1D0BCF82001316C0 /* TYHTTPProgressBar.m */,
+				2F48617F1D0BCF82001316C0 /* TYHTTPViewModel.h */,
+				2F4861801D0BCF82001316C0 /* TYHTTPViewModel.m */,
+			);
+			path = TYHTTPController;
+			sourceTree = "<group>";
+		};
+		2F4861811D0BCF82001316C0 /* TYLoding */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861821D0BCF82001316C0 /* tyloding_baby_eye.png */,
+				2F4861831D0BCF82001316C0 /* tyloding_baby_face.png */,
+				2F4861841D0BCF82001316C0 /* tyloding_baby_plane.png */,
+				2F4861851D0BCF82001316C0 /* UIView+TYLoading.h */,
+				2F4861861D0BCF82001316C0 /* UIView+TYLoading.m */,
+			);
+			path = TYLoding;
+			sourceTree = "<group>";
+		};
+		2F4861871D0BCF82001316C0 /* TYMasker */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861881D0BCF82001316C0 /* TYMasker.h */,
+				2F4861891D0BCF82001316C0 /* TYMasker.m */,
+			);
+			path = TYMasker;
+			sourceTree = "<group>";
+		};
+		2F48618A1D0BCF82001316C0 /* TYNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				2F48618B1D0BCF82001316C0 /* TYNavigation.h */,
+				2F48618C1D0BCF82001316C0 /* TYNavigation.m */,
+				2F48618D1D0BCF82001316C0 /* TYNavigationViewController.h */,
+				2F48618E1D0BCF82001316C0 /* TYNavigationViewController.m */,
+				2F48618F1D0BCF82001316C0 /* UINavigationBar+TYKit.h */,
+				2F4861901D0BCF82001316C0 /* UINavigationBar+TYKit.m */,
+			);
+			path = TYNavigation;
+			sourceTree = "<group>";
+		};
+		2F4861911D0BCF82001316C0 /* TYPopover */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861921D0BCF82001316C0 /* TYPopover.h */,
+				2F4861931D0BCF82001316C0 /* TYPopover.m */,
+			);
+			path = TYPopover;
+			sourceTree = "<group>";
+		};
+		2F4861941D0BCF82001316C0 /* TYReloader */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861951D0BCF82001316C0 /* TYPullLoadingView.h */,
+				2F4861961D0BCF82001316C0 /* TYPullLoadingView.m */,
+				2F4861971D0BCF82001316C0 /* TYPullReloadView.h */,
+				2F4861981D0BCF82001316C0 /* TYPullReloadView.m */,
+				2F4861991D0BCF82001316C0 /* TYReloader.h */,
+				2F48619A1D0BCF82001316C0 /* UIScrollView+TYPullLoading.h */,
+				2F48619B1D0BCF82001316C0 /* UIScrollView+TYPullLoading.m */,
+				2F48619C1D0BCF82001316C0 /* UIScrollView+TYPullReload.h */,
+				2F48619D1D0BCF82001316C0 /* UIScrollView+TYPullReload.m */,
+			);
+			path = TYReloader;
+			sourceTree = "<group>";
+		};
+		2F48619E1D0BCF82001316C0 /* TYStatus */ = {
+			isa = PBXGroup;
+			children = (
+				2F48619F1D0BCF82001316C0 /* mm_loading_spot.png */,
+				2F4861A01D0BCF82001316C0 /* mm_loading_text.png */,
+				2F4861A11D0BCF82001316C0 /* mm_network_empty.png */,
+				2F4861A21D0BCF82001316C0 /* mm_network_error.png */,
+				2F4861A31D0BCF82001316C0 /* mm_network_fail.png */,
+				2F4861A41D0BCF82001316C0 /* UIView+TYStatus.h */,
+				2F4861A51D0BCF82001316C0 /* UIView+TYStatus.m */,
+			);
+			path = TYStatus;
+			sourceTree = "<group>";
+		};
+		2F4861A61D0BCF82001316C0 /* TYTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861A71D0BCF82001316C0 /* TYTabbar.h */,
+				2F4861A81D0BCF82001316C0 /* TYTabbar.m */,
+				2F4861A91D0BCF82001316C0 /* TYTabbarEntity.h */,
+				2F4861AA1D0BCF82001316C0 /* TYTabbarEntity.m */,
+			);
+			path = TYTabbar;
+			sourceTree = "<group>";
+		};
+		2F4861AC1D0BCF82001316C0 /* TYVender */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861B61D0BCF82001316C0 /* TYVenderHeader.h */,
+				2F4861AD1D0BCF82001316C0 /* TPKeyboardAvoiding */,
+			);
+			path = TYVender;
+			sourceTree = "<group>";
+		};
+		2F4861AD1D0BCF82001316C0 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				2F4861AE1D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.h */,
+				2F4861AF1D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.m */,
+				2F4861B01D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.h */,
+				2F4861B11D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.m */,
+				2F4861B21D0BCF82001316C0 /* TPKeyboardAvoidingTableView.h */,
+				2F4861B31D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m */,
+				2F4861B41D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				2F4861B51D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		EC9AEBBC68FEEDE5B52CBCE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				024129AA76790C88E9A0F1D1 /* Pods.debug.xcconfig */,
+				D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F4860811D0BCEFF001316C0 /* QBProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4860AF1D0BCEFF001316C0 /* Build configuration list for PBXNativeTarget "QBProject" */;
+			buildPhases = (
+				C48DC2783409FA1DA5E2D46D /* Check Pods Manifest.lock */,
+				2F48607E1D0BCEFF001316C0 /* Sources */,
+				2F48607F1D0BCEFF001316C0 /* Frameworks */,
+				2F4860801D0BCEFF001316C0 /* Resources */,
+				63BCEC2BCAB9165C651BD1DC /* Embed Pods Frameworks */,
+				8ED887CD8932F9B19D8537A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBProject;
+			productName = QBProject;
+			productReference = 2F4860821D0BCEFF001316C0 /* QBProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F48609A1D0BCEFF001316C0 /* QBProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4860B21D0BCEFF001316C0 /* Build configuration list for PBXNativeTarget "QBProjectTests" */;
+			buildPhases = (
+				2F4860971D0BCEFF001316C0 /* Sources */,
+				2F4860981D0BCEFF001316C0 /* Frameworks */,
+				2F4860991D0BCEFF001316C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F48609D1D0BCEFF001316C0 /* PBXTargetDependency */,
+			);
+			name = QBProjectTests;
+			productName = QBProjectTests;
+			productReference = 2F48609B1D0BCEFF001316C0 /* QBProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F4860A51D0BCEFF001316C0 /* QBProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4860B51D0BCEFF001316C0 /* Build configuration list for PBXNativeTarget "QBProjectUITests" */;
+			buildPhases = (
+				2F4860A21D0BCEFF001316C0 /* Sources */,
+				2F4860A31D0BCEFF001316C0 /* Frameworks */,
+				2F4860A41D0BCEFF001316C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F4860A81D0BCEFF001316C0 /* PBXTargetDependency */,
+			);
+			name = QBProjectUITests;
+			productName = QBProjectUITests;
+			productReference = 2F4860A61D0BCEFF001316C0 /* QBProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F48607A1D0BCEFF001316C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Quincy Yan";
+				TargetAttributes = {
+					2F4860811D0BCEFF001316C0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2F48609A1D0BCEFF001316C0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2F4860811D0BCEFF001316C0;
+					};
+					2F4860A51D0BCEFF001316C0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2F4860811D0BCEFF001316C0;
+					};
+				};
+			};
+			buildConfigurationList = 2F48607D1D0BCEFF001316C0 /* Build configuration list for PBXProject "QBProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F4860791D0BCEFF001316C0;
+			productRefGroup = 2F4860831D0BCEFF001316C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F4860811D0BCEFF001316C0 /* QBProject */,
+				2F48609A1D0BCEFF001316C0 /* QBProjectTests */,
+				2F4860A51D0BCEFF001316C0 /* QBProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4860801D0BCEFF001316C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F48620F1D0BCF82001316C0 /* tyloding_baby_plane.png in Resources */,
+				2F4862011D0BCF82001316C0 /* TY_navibar_return_arrow.png in Resources */,
+				2F48621E1D0BCF82001316C0 /* mm_network_fail.png in Resources */,
+				2F48620E1D0BCF82001316C0 /* tyloding_baby_face.png in Resources */,
+				2F4860921D0BCEFF001316C0 /* Assets.xcassets in Resources */,
+				2F48621A1D0BCF82001316C0 /* mm_loading_spot.png in Resources */,
+				2F48621D1D0BCF82001316C0 /* mm_network_error.png in Resources */,
+				2F48621C1D0BCF82001316C0 /* mm_network_empty.png in Resources */,
+				2F48620D1D0BCF82001316C0 /* tyloding_baby_eye.png in Resources */,
+				2F48621B1D0BCF82001316C0 /* mm_loading_text.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4860991D0BCEFF001316C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4860A41D0BCEFF001316C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63BCEC2BCAB9165C651BD1DC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED887CD8932F9B19D8537A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48DC2783409FA1DA5E2D46D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F48607E1D0BCEFF001316C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F48608A1D0BCEFF001316C0 /* AppDelegate.m in Sources */,
+				2F4862241D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m in Sources */,
+				2F4862041D0BCF82001316C0 /* TYTableViewModel.m in Sources */,
+				2F4861E31D0BCF82001316C0 /* NSArray+TYKit.m in Sources */,
+				2F48622E1D0BD0FC001316C0 /* QBTestController.m in Sources */,
+				2F4860871D0BCEFF001316C0 /* main.m in Sources */,
+				2F48620C1D0BCF82001316C0 /* TYHTTPViewModel.m in Sources */,
+				2F4862221D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				2F4862141D0BCF82001316C0 /* UINavigationBar+TYKit.m in Sources */,
+				2F4862031D0BCF82001316C0 /* TYTabbarViewModel.m in Sources */,
+				2F48620B1D0BCF82001316C0 /* TYHTTPProgressBar.m in Sources */,
+				2F4862121D0BCF82001316C0 /* TYNavigation.m in Sources */,
+				2F4861F91D0BCF82001316C0 /* TYTableViewCell.m in Sources */,
+				2F4861EA1D0BCF82001316C0 /* UIColor+TYKit.m in Sources */,
+				2F4861FD1D0BCF82001316C0 /* TYTabbarController.m in Sources */,
+				2F48622B1D0BD0ED001316C0 /* QBTestViewModel.m in Sources */,
+				2F4862161D0BCF82001316C0 /* TYPullLoadingView.m in Sources */,
+				2F4861FF1D0BCF82001316C0 /* TYView.m in Sources */,
+				2F4861BF1D0BCF82001316C0 /* QBErrorService.m in Sources */,
+				2F4861F11D0BCF82001316C0 /* UITextField+TYKit.m in Sources */,
+				2F4861F71D0BCF82001316C0 /* TYViewModelServiceImpl.m in Sources */,
+				2F4861F41D0BCF82001316C0 /* TYBarEntity.m in Sources */,
+				2F4862251D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				2F4862201D0BCF82001316C0 /* TYTabbar.m in Sources */,
+				2F4862081D0BCF82001316C0 /* TYLineButton.m in Sources */,
+				2F48620A1D0BCF82001316C0 /* TYHTTPController.m in Sources */,
+				2F4861C01D0BCF82001316C0 /* QBRequestService.m in Sources */,
+				2F4861F01D0BCF82001316C0 /* UIScrollView+TYKit.m in Sources */,
+				2F48621F1D0BCF82001316C0 /* UIView+TYStatus.m in Sources */,
+				2F4861FC1D0BCF82001316C0 /* TYScrollController.m in Sources */,
+				2F4862211D0BCF82001316C0 /* TYTabbarEntity.m in Sources */,
+				2F4861FB1D0BCF82001316C0 /* TYNaviController.m in Sources */,
+				2F4862091D0BCF82001316C0 /* TYTextView.m in Sources */,
+				2F4861F61D0BCF82001316C0 /* TYRouter.m in Sources */,
+				2F4861ED1D0BCF82001316C0 /* UIButton+TYKit.m in Sources */,
+				2F4861E71D0BCF82001316C0 /* NSObject+Property.m in Sources */,
+				2F4862101D0BCF82001316C0 /* UIView+TYLoading.m in Sources */,
+				2F4861E51D0BCF82001316C0 /* NSDictionary+Encrypt.m in Sources */,
+				2F4861FE1D0BCF82001316C0 /* TYTableViewController.m in Sources */,
+				2F4862071D0BCF82001316C0 /* TYRequestService.m in Sources */,
+				2F4862051D0BCF82001316C0 /* TYViewModel.m in Sources */,
+				2F4862231D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				2F4861EF1D0BCF82001316C0 /* UILabel+TYKit.m in Sources */,
+				2F4862151D0BCF82001316C0 /* TYPopover.m in Sources */,
+				2F4862131D0BCF82001316C0 /* TYNavigationViewController.m in Sources */,
+				2F4861E61D0BCF82001316C0 /* NSDictionary+TYKit.m in Sources */,
+				2F4862181D0BCF82001316C0 /* UIScrollView+TYPullLoading.m in Sources */,
+				2F4861F21D0BCF82001316C0 /* UIView+TYKit.m in Sources */,
+				2F4861EE1D0BCF82001316C0 /* UIImageView+TYKit.m in Sources */,
+				2F4862001D0BCF82001316C0 /* TYViewController.m in Sources */,
+				2F4861E81D0BCF82001316C0 /* NSObject+TYKit.m in Sources */,
+				2F4861E91D0BCF82001316C0 /* NSString+TYKit.m in Sources */,
+				2F4861EB1D0BCF82001316C0 /* UIImage+TYKit.m in Sources */,
+				2F4861EC1D0BCF82001316C0 /* NSMutableAttributedString+TYKit.m in Sources */,
+				2F4862021D0BCF82001316C0 /* TYCollectionViewModel.m in Sources */,
+				2F4861F81D0BCF82001316C0 /* TYCollectionViewCell.m in Sources */,
+				2F4862061D0BCF82001316C0 /* TYLocationService.m in Sources */,
+				2F4861F51D0BCF82001316C0 /* TYNavigationStack.m in Sources */,
+				2F4862111D0BCF82001316C0 /* TYMasker.m in Sources */,
+				2F4861F31D0BCF82001316C0 /* UIViewController+TYKit.m in Sources */,
+				2F4862191D0BCF82001316C0 /* UIScrollView+TYPullReload.m in Sources */,
+				2F4861E41D0BCF82001316C0 /* NSDate+TYKit.m in Sources */,
+				2F4861FA1D0BCF82001316C0 /* TYCollectionViewController.m in Sources */,
+				2F4862171D0BCF82001316C0 /* TYPullReloadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4860971D0BCEFF001316C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4860A01D0BCEFF001316C0 /* QBProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4860A21D0BCEFF001316C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4860AB1D0BCEFF001316C0 /* QBProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F48609D1D0BCEFF001316C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F4860811D0BCEFF001316C0 /* QBProject */;
+			targetProxy = 2F48609C1D0BCEFF001316C0 /* PBXContainerItemProxy */;
+		};
+		2F4860A81D0BCEFF001316C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F4860811D0BCEFF001316C0 /* QBProject */;
+			targetProxy = 2F4860A71D0BCEFF001316C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F4860AD1D0BCEFF001316C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F4860AE1D0BCEFF001316C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F4860B01D0BCEFF001316C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024129AA76790C88E9A0F1D1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QBProject/QBProject.pch;
+				INFOPLIST_FILE = QBProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quincy-Yan.QBProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F4860B11D0BCEFF001316C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QBProject/QBProject.pch;
+				INFOPLIST_FILE = QBProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quincy-Yan.QBProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F4860B31D0BCEFF001316C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QBProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quincy-Yan.QBProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBProject.app/QBProject";
+			};
+			name = Debug;
+		};
+		2F4860B41D0BCEFF001316C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QBProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quincy-Yan.QBProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBProject.app/QBProject";
+			};
+			name = Release;
+		};
+		2F4860B61D0BCEFF001316C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QBProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quincy-Yan.QBProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QBProject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2F4860B71D0BCEFF001316C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QBProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quincy-Yan.QBProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QBProject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F48607D1D0BCEFF001316C0 /* Build configuration list for PBXProject "QBProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4860AD1D0BCEFF001316C0 /* Debug */,
+				2F4860AE1D0BCEFF001316C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4860AF1D0BCEFF001316C0 /* Build configuration list for PBXNativeTarget "QBProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4860B01D0BCEFF001316C0 /* Debug */,
+				2F4860B11D0BCEFF001316C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4860B21D0BCEFF001316C0 /* Build configuration list for PBXNativeTarget "QBProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4860B31D0BCEFF001316C0 /* Debug */,
+				2F4860B41D0BCEFF001316C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4860B51D0BCEFF001316C0 /* Build configuration list for PBXNativeTarget "QBProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4860B61D0BCEFF001316C0 /* Debug */,
+				2F4860B71D0BCEFF001316C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F48607A1D0BCEFF001316C0 /* Project object */;
+}
