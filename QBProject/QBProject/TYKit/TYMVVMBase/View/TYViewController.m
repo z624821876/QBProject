@@ -50,7 +50,7 @@
     self.tyNavigation.statusBarStyle = UIStatusBarStyleLightContent;
     self.tyNavigation.titleColor = [UIColor whiteColor];
     self.tyNavigation.tintColor = [UIColor whiteColor];
-    self.tyNavigation.backgroundColor = [UIColor blackColor];
+    self.tyNavigation.backgroundColor = QBThemeColor;
     
     if (!self.viewModel.isHiddenBackBarButton) {
         self.viewModel.leftBarButtons = @[[TYBarEntity entityWithIcon:@"TY_navibar_return_arrow" scale:@(3.0f)]];

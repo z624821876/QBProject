@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "TYViewModelService.h"
 #import "TYViewModelServiceImpl.h"
-#import "QBTestViewModel.h"
+#import "QBTabbarViewModel.h"
 
 @interface AppDelegate ()
 @property (nonatomic,strong) TYViewModelServiceImpl *serviceImpl;
@@ -25,7 +25,7 @@
     
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
-    [_serviceImpl resetRootViewModel:[[QBTestViewModel alloc] initWithService:self.serviceImpl params:nil]];
+    [_serviceImpl resetRootViewModel:[[QBTabbarViewModel alloc] initWithService:self.serviceImpl params:nil]];
     [_window makeKeyAndVisible];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];

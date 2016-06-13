@@ -81,8 +81,14 @@
 		2F4862231D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861B11D0BCF82001316C0 /* TPKeyboardAvoidingScrollView.m */; };
 		2F4862241D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861B31D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m */; };
 		2F4862251D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4861B51D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
-		2F48622B1D0BD0ED001316C0 /* QBTestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48622A1D0BD0ED001316C0 /* QBTestViewModel.m */; };
-		2F48622E1D0BD0FC001316C0 /* QBTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48622D1D0BD0FC001316C0 /* QBTestController.m */; };
+		2FFDDE901D0E4EDD002803B0 /* QBTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDE8F1D0E4EDD002803B0 /* QBTabbarController.m */; };
+		2FFDDE931D0E4EEE002803B0 /* QBTabbarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDE921D0E4EEE002803B0 /* QBTabbarViewModel.m */; };
+		2FFDDE961D0E4F2B002803B0 /* QBHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDE951D0E4F2B002803B0 /* QBHomeViewModel.m */; };
+		2FFDDE991D0E4F85002803B0 /* QBMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDE981D0E4F85002803B0 /* QBMenuViewModel.m */; };
+		2FFDDE9C1D0E4F99002803B0 /* QBUserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDE9B1D0E4F99002803B0 /* QBUserViewModel.m */; };
+		2FFDDE9F1D0E4FA8002803B0 /* QBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDE9E1D0E4FA8002803B0 /* QBHomeController.m */; };
+		2FFDDEA21D0E4FB5002803B0 /* QBMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEA11D0E4FB5002803B0 /* QBMenuController.m */; };
+		2FFDDEA51D0E4FBE002803B0 /* QBUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEA41D0E4FBE002803B0 /* QBUserController.m */; };
 		56CB3F23374290EDEE41DDEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C8E7F7CAE5071A262BB239 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -258,10 +264,22 @@
 		2F4861B41D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		2F4861B51D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		2F4861B61D0BCF82001316C0 /* TYVenderHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVenderHeader.h; sourceTree = "<group>"; };
-		2F4862291D0BD0ED001316C0 /* QBTestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTestViewModel.h; sourceTree = "<group>"; };
-		2F48622A1D0BD0ED001316C0 /* QBTestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTestViewModel.m; sourceTree = "<group>"; };
-		2F48622C1D0BD0FC001316C0 /* QBTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTestController.h; sourceTree = "<group>"; };
-		2F48622D1D0BD0FC001316C0 /* QBTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTestController.m; sourceTree = "<group>"; };
+		2FFDDE8E1D0E4EDD002803B0 /* QBTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTabbarController.h; sourceTree = "<group>"; };
+		2FFDDE8F1D0E4EDD002803B0 /* QBTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTabbarController.m; sourceTree = "<group>"; };
+		2FFDDE911D0E4EEE002803B0 /* QBTabbarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBTabbarViewModel.h; sourceTree = "<group>"; };
+		2FFDDE921D0E4EEE002803B0 /* QBTabbarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBTabbarViewModel.m; sourceTree = "<group>"; };
+		2FFDDE941D0E4F2B002803B0 /* QBHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBHomeViewModel.h; sourceTree = "<group>"; };
+		2FFDDE951D0E4F2B002803B0 /* QBHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBHomeViewModel.m; sourceTree = "<group>"; };
+		2FFDDE971D0E4F85002803B0 /* QBMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBMenuViewModel.h; sourceTree = "<group>"; };
+		2FFDDE981D0E4F85002803B0 /* QBMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBMenuViewModel.m; sourceTree = "<group>"; };
+		2FFDDE9A1D0E4F99002803B0 /* QBUserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUserViewModel.h; sourceTree = "<group>"; };
+		2FFDDE9B1D0E4F99002803B0 /* QBUserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUserViewModel.m; sourceTree = "<group>"; };
+		2FFDDE9D1D0E4FA8002803B0 /* QBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBHomeController.h; sourceTree = "<group>"; };
+		2FFDDE9E1D0E4FA8002803B0 /* QBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBHomeController.m; sourceTree = "<group>"; };
+		2FFDDEA01D0E4FB5002803B0 /* QBMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBMenuController.h; sourceTree = "<group>"; };
+		2FFDDEA11D0E4FB5002803B0 /* QBMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBMenuController.m; sourceTree = "<group>"; };
+		2FFDDEA31D0E4FBE002803B0 /* QBUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUserController.h; sourceTree = "<group>"; };
+		2FFDDEA41D0E4FBE002803B0 /* QBUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUserController.m; sourceTree = "<group>"; };
 		D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D9C8E7F7CAE5071A262BB239 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -366,13 +384,13 @@
 		2F4860B91D0BCF82001316C0 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				2F4860BA1D0BCF82001316C0 /* Image */,
 				2F4860BE1D0BCF82001316C0 /* Local */,
 				2F4860BF1D0BCF82001316C0 /* Model */,
 				2F4860CA1D0BCF82001316C0 /* Service */,
-				2F4860CF1D0BCF82001316C0 /* Vender */,
 				2F4860D01D0BCF82001316C0 /* View */,
 				2F4860FF1D0BCF82001316C0 /* ViewModel */,
+				2F4860CF1D0BCF82001316C0 /* Vender */,
+				2F4860BA1D0BCF82001316C0 /* Image */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -420,8 +438,14 @@
 			isa = PBXGroup;
 			children = (
 				2F4860D11D0BCF82001316C0 /* Cell */,
-				2F48622C1D0BD0FC001316C0 /* QBTestController.h */,
-				2F48622D1D0BD0FC001316C0 /* QBTestController.m */,
+				2FFDDE8E1D0E4EDD002803B0 /* QBTabbarController.h */,
+				2FFDDE8F1D0E4EDD002803B0 /* QBTabbarController.m */,
+				2FFDDE9D1D0E4FA8002803B0 /* QBHomeController.h */,
+				2FFDDE9E1D0E4FA8002803B0 /* QBHomeController.m */,
+				2FFDDEA01D0E4FB5002803B0 /* QBMenuController.h */,
+				2FFDDEA11D0E4FB5002803B0 /* QBMenuController.m */,
+				2FFDDEA31D0E4FBE002803B0 /* QBUserController.h */,
+				2FFDDEA41D0E4FBE002803B0 /* QBUserController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -436,8 +460,14 @@
 		2F4860FF1D0BCF82001316C0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				2F4862291D0BD0ED001316C0 /* QBTestViewModel.h */,
-				2F48622A1D0BD0ED001316C0 /* QBTestViewModel.m */,
+				2FFDDE911D0E4EEE002803B0 /* QBTabbarViewModel.h */,
+				2FFDDE921D0E4EEE002803B0 /* QBTabbarViewModel.m */,
+				2FFDDE941D0E4F2B002803B0 /* QBHomeViewModel.h */,
+				2FFDDE951D0E4F2B002803B0 /* QBHomeViewModel.m */,
+				2FFDDE971D0E4F85002803B0 /* QBMenuViewModel.h */,
+				2FFDDE981D0E4F85002803B0 /* QBMenuViewModel.m */,
+				2FFDDE9A1D0E4F99002803B0 /* QBUserViewModel.h */,
+				2FFDDE9B1D0E4F99002803B0 /* QBUserViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -962,7 +992,6 @@
 				2F4862241D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m in Sources */,
 				2F4862041D0BCF82001316C0 /* TYTableViewModel.m in Sources */,
 				2F4861E31D0BCF82001316C0 /* NSArray+TYKit.m in Sources */,
-				2F48622E1D0BD0FC001316C0 /* QBTestController.m in Sources */,
 				2F4860871D0BCEFF001316C0 /* main.m in Sources */,
 				2F48620C1D0BCF82001316C0 /* TYHTTPViewModel.m in Sources */,
 				2F4862221D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.m in Sources */,
@@ -973,10 +1002,12 @@
 				2F4861F91D0BCF82001316C0 /* TYTableViewCell.m in Sources */,
 				2F4861EA1D0BCF82001316C0 /* UIColor+TYKit.m in Sources */,
 				2F4861FD1D0BCF82001316C0 /* TYTabbarController.m in Sources */,
-				2F48622B1D0BD0ED001316C0 /* QBTestViewModel.m in Sources */,
 				2F4862161D0BCF82001316C0 /* TYPullLoadingView.m in Sources */,
 				2F4861FF1D0BCF82001316C0 /* TYView.m in Sources */,
 				2F4861BF1D0BCF82001316C0 /* QBErrorService.m in Sources */,
+				2FFDDEA51D0E4FBE002803B0 /* QBUserController.m in Sources */,
+				2FFDDEA21D0E4FB5002803B0 /* QBMenuController.m in Sources */,
+				2FFDDE901D0E4EDD002803B0 /* QBTabbarController.m in Sources */,
 				2F4861F11D0BCF82001316C0 /* UITextField+TYKit.m in Sources */,
 				2F4861F71D0BCF82001316C0 /* TYViewModelServiceImpl.m in Sources */,
 				2F4861F41D0BCF82001316C0 /* TYBarEntity.m in Sources */,
@@ -984,6 +1015,7 @@
 				2F4862201D0BCF82001316C0 /* TYTabbar.m in Sources */,
 				2F4862081D0BCF82001316C0 /* TYLineButton.m in Sources */,
 				2F48620A1D0BCF82001316C0 /* TYHTTPController.m in Sources */,
+				2FFDDE931D0E4EEE002803B0 /* QBTabbarViewModel.m in Sources */,
 				2F4861C01D0BCF82001316C0 /* QBRequestService.m in Sources */,
 				2F4861F01D0BCF82001316C0 /* UIScrollView+TYKit.m in Sources */,
 				2F48621F1D0BCF82001316C0 /* UIView+TYStatus.m in Sources */,
@@ -995,6 +1027,8 @@
 				2F4861ED1D0BCF82001316C0 /* UIButton+TYKit.m in Sources */,
 				2F4861E71D0BCF82001316C0 /* NSObject+Property.m in Sources */,
 				2F4862101D0BCF82001316C0 /* UIView+TYLoading.m in Sources */,
+				2FFDDE961D0E4F2B002803B0 /* QBHomeViewModel.m in Sources */,
+				2FFDDE991D0E4F85002803B0 /* QBMenuViewModel.m in Sources */,
 				2F4861E51D0BCF82001316C0 /* NSDictionary+Encrypt.m in Sources */,
 				2F4861FE1D0BCF82001316C0 /* TYTableViewController.m in Sources */,
 				2F4862071D0BCF82001316C0 /* TYRequestService.m in Sources */,
@@ -1004,10 +1038,12 @@
 				2F4862151D0BCF82001316C0 /* TYPopover.m in Sources */,
 				2F4862131D0BCF82001316C0 /* TYNavigationViewController.m in Sources */,
 				2F4861E61D0BCF82001316C0 /* NSDictionary+TYKit.m in Sources */,
+				2FFDDE9C1D0E4F99002803B0 /* QBUserViewModel.m in Sources */,
 				2F4862181D0BCF82001316C0 /* UIScrollView+TYPullLoading.m in Sources */,
 				2F4861F21D0BCF82001316C0 /* UIView+TYKit.m in Sources */,
 				2F4861EE1D0BCF82001316C0 /* UIImageView+TYKit.m in Sources */,
 				2F4862001D0BCF82001316C0 /* TYViewController.m in Sources */,
+				2FFDDE9F1D0E4FA8002803B0 /* QBHomeController.m in Sources */,
 				2F4861E81D0BCF82001316C0 /* NSObject+TYKit.m in Sources */,
 				2F4861E91D0BCF82001316C0 /* NSString+TYKit.m in Sources */,
 				2F4861EB1D0BCF82001316C0 /* UIImage+TYKit.m in Sources */,

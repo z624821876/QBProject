@@ -30,16 +30,30 @@
 static inline NSString* serverURL(){
     NSArray *serverList = @[@"http://127.0.0.1:3000/",
                             @"http://120.26.121.182:3000/"];
-    return serverList[1];
+    return serverList[0];
 }
 
 /// Mapping
 static inline NSDictionary *viewModelMapping() {
-    return @{@"QBTestViewModel":@"QBTestController"};
+    return @{@"QBTabbarViewModel":@"QBTabbarController",
+             @"QBHomeViewModel":@"QBHomeController",
+             @"QBMenuViewModel":@"QBMenuController",
+             @"QBUserViewModel":@"QBUserController"};
 };
 
 /// Colors
-
+/// 用于重要级文字信息 内页标题信息
+#define QBImportantTextColor [UIColor colorWithHexString:@"222222"]
+/// 用于普通级段落信息 引导词
+#define QBNormalTextColor [UIColor colorWithHexString:@"666666"]
+/// 用于辅助、次要的文字信息, 普通按钮描边
+#define QBAssistTextColor [UIColor colorWithHexString:@"999999"]
+/// 分割线颜色
+#define QBSpliterColor [UIColor colorWithHexString:@"d7d7d7"]
+/// App主题颜色
+#define QBThemeColor UIColorFromRGBBytes(52, 193, 163)
+/// App主题字体颜色
+#define QBThemeTextColor UIColorFromRGBBytes(45, 62, 79)
 
 
 #endif /* QBProject_pch */
