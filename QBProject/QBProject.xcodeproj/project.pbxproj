@@ -105,7 +105,7 @@
 		2FFDDEDE1D0E81EA002803B0 /* QBSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEDD1D0E81EA002803B0 /* QBSettingController.m */; };
 		2FFDDEE41D0E8265002803B0 /* QBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEE31D0E8265002803B0 /* QBLoginController.m */; };
 		2FFDDEE71D0E8271002803B0 /* QBLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEE61D0E8271002803B0 /* QBLoginViewModel.m */; };
-		56CB3F23374290EDEE41DDEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C8E7F7CAE5071A262BB239 /* libPods.a */; };
+		3051C27E376908538EA0C166 /* libPods-QBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCB89A6EFE6358685BDD031 /* libPods-QBProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,7 +126,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		024129AA76790C88E9A0F1D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2F4860821D0BCEFF001316C0 /* QBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4860861D0BCEFF001316C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F4860881D0BCEFF001316C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -319,8 +318,9 @@
 		2FFDDEE31D0E8265002803B0 /* QBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBLoginController.m; sourceTree = "<group>"; };
 		2FFDDEE51D0E8271002803B0 /* QBLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBLoginViewModel.h; sourceTree = "<group>"; };
 		2FFDDEE61D0E8271002803B0 /* QBLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBLoginViewModel.m; sourceTree = "<group>"; };
-		D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		D9C8E7F7CAE5071A262BB239 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F049F2E936ED71DCC051CA /* Pods-QBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBProject/Pods-QBProject.release.xcconfig"; sourceTree = "<group>"; };
+		BCCB89A6EFE6358685BDD031 /* libPods-QBProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QBProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA454FFEDF65479B5B1706AA /* Pods-QBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBProject/Pods-QBProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,7 +328,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56CB3F23374290EDEE41DDEE /* libPods.a in Frameworks */,
+				3051C27E376908538EA0C166 /* libPods-QBProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,14 +349,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10AEED4C22B432E9D4E4BB36 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D9C8E7F7CAE5071A262BB239 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2F4860791D0BCEFF001316C0 = {
 			isa = PBXGroup;
 			children = (
@@ -364,8 +356,8 @@
 				2F48609E1D0BCEFF001316C0 /* QBProjectTests */,
 				2F4860A91D0BCEFF001316C0 /* QBProjectUITests */,
 				2F4860831D0BCEFF001316C0 /* Products */,
-				EC9AEBBC68FEEDE5B52CBCE3 /* Pods */,
-				10AEED4C22B432E9D4E4BB36 /* Frameworks */,
+				39FA4E9D84BF89CBA9CBF278 /* Pods */,
+				EAFB59AAB53DC5949C205659 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -901,13 +893,21 @@
 			path = Default;
 			sourceTree = "<group>";
 		};
-		EC9AEBBC68FEEDE5B52CBCE3 /* Pods */ = {
+		39FA4E9D84BF89CBA9CBF278 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				024129AA76790C88E9A0F1D1 /* Pods.debug.xcconfig */,
-				D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */,
+				FA454FFEDF65479B5B1706AA /* Pods-QBProject.debug.xcconfig */,
+				35F049F2E936ED71DCC051CA /* Pods-QBProject.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAFB59AAB53DC5949C205659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB89A6EFE6358685BDD031 /* libPods-QBProject.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -917,12 +917,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F4860AF1D0BCEFF001316C0 /* Build configuration list for PBXNativeTarget "QBProject" */;
 			buildPhases = (
-				C48DC2783409FA1DA5E2D46D /* Check Pods Manifest.lock */,
+				B3ED8B196E382DDCA1252F66 /* [CP] Check Pods Manifest.lock */,
 				2F48607E1D0BCEFF001316C0 /* Sources */,
 				2F48607F1D0BCEFF001316C0 /* Frameworks */,
 				2F4860801D0BCEFF001316C0 /* Resources */,
-				63BCEC2BCAB9165C651BD1DC /* Embed Pods Frameworks */,
-				8ED887CD8932F9B19D8537A1 /* Copy Pods Resources */,
+				F8F7D08B5B48823EAB1C2B07 /* [CP] Embed Pods Frameworks */,
+				8AE5C8632DDC3406D0EF312D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1055,49 +1055,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		63BCEC2BCAB9165C651BD1DC /* Embed Pods Frameworks */ = {
+		8AE5C8632DDC3406D0EF312D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBProject/Pods-QBProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8ED887CD8932F9B19D8537A1 /* Copy Pods Resources */ = {
+		B3ED8B196E382DDCA1252F66 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C48DC2783409FA1DA5E2D46D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F7D08B5B48823EAB1C2B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBProject/Pods-QBProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1301,7 +1301,7 @@
 		};
 		2F4860B01D0BCEFF001316C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 024129AA76790C88E9A0F1D1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = FA454FFEDF65479B5B1706AA /* Pods-QBProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1318,7 +1318,7 @@
 		};
 		2F4860B11D0BCEFF001316C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 35F049F2E936ED71DCC051CA /* Pods-QBProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

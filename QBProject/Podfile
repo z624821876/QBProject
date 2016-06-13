@@ -1,4 +1,6 @@
 platform :ios,"7.0"
+
+target 'QBProject' do
 pod 'ReactiveCocoa'
 pod 'SDWebImage'
 pod 'Masonry'
@@ -7,4 +9,4 @@ pod 'AFNetworking'
 pod 'FDFullscreenPopGesture', '~> 1.1'
 pod 'Bugtags'
 pod 'APParallaxHeader'
-
+end

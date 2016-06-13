@@ -32,7 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - APParallaxHeader (= 0.1.6)
+  - APParallaxHeader
   - Bugtags
   - FDFullscreenPopGesture (~> 1.1)
   - Masonry
@@ -50,4 +50,6 @@ SPEC CHECKSUMS:
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: ce65aff7c912f2e76d9fdb1523ff15abe089c93a
+
+COCOAPODS: 1.0.1
