@@ -1,13 +1,13 @@
 //
-//  QBLoginController.h
+//  QBUsernameView.h
 //  QBProject
 //
 //  Created by QuincyYan on 16/6/13.
 //  Copyright © 2016年 Quincy Yan. All rights reserved.
 //
 
-#import "TYScrollController.h"
+#import "TYView.h"
 
-@interface QBLoginController : TYScrollController
+@interface QBUsernameView : TYView
 
 @end

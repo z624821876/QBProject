@@ -80,7 +80,7 @@ static char blockKey;
     [self viewWithBackgroundImage:backgroundImage withAlpha:1.0f];
 }
 
--(void)viewContainsTextFieldShouldAppear {
+- (void)viewContainsTextFieldShouldAppear {
     for (UIView *subView in self.subviews) {
         if ([subView isKindOfClass:[UITextField class]]) {
             [subView becomeFirstResponder];
@@ -89,9 +89,21 @@ static char blockKey;
     }
 }
 
--(void)viewInsertSplitIsContainsTop:(BOOL)top topPadding:(CGFloat)topPadding andBottom:(BOOL)bottom bottomPadding:(CGFloat)bottomPadding{
+- (void)viewInsertBottomSpliterWithColor:(UIColor *)color appendPadding:(CGFloat)padding {
+    [self viewInsertSplitIsContainsTop:NO topPadding:0 andBottom:YES bottomPadding:padding andColor:color ? color : [UIColor colorWithHexString:@"d7d7d7"]];
+}
+
+- (void)viewInsertTopSpliterWithColor:(UIColor *)color appendPadding:(CGFloat)padding {
+    [self viewInsertSplitIsContainsTop:YES topPadding:padding andBottom:NO bottomPadding:0 andColor:color ? color : [UIColor colorWithHexString:@"d7d7d7"]];
+}
+
+- (void)viewInsertSplitIsContainsTop:(BOOL)top topPadding:(CGFloat)topPadding andBottom:(BOOL)bottom bottomPadding:(CGFloat)bottomPadding {
+    [self viewInsertSplitIsContainsTop:top topPadding:topPadding andBottom:bottom bottomPadding:bottomPadding andColor:[UIColor colorWithHexString:@"d7d7d7"]];
+}
+
+- (void)viewInsertSplitIsContainsTop:(BOOL)top topPadding:(CGFloat)topPadding andBottom:(BOOL)bottom bottomPadding:(CGFloat)bottomPadding andColor:(UIColor *)color{
     if (top){
-        UIView *topLine = [UIView viewWithColor:QBSpliterColor];
+        UIView *topLine = [UIView viewWithColor:color];
         [self addSubview:topLine];
         
         [topLine mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -101,7 +113,7 @@ static char blockKey;
         }];
     }
     if (bottom){
-        UIView *bottomLine = [UIView viewWithColor:QBSpliterColor];
+        UIView *bottomLine = [UIView viewWithColor:color];
         [self addSubview:bottomLine];
         
         [bottomLine mas_makeConstraints:^(MASConstraintMaker *make) {

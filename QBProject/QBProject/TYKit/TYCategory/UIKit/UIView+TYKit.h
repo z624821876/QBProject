@@ -42,6 +42,13 @@ typedef void (^ gestureTapBlock)();
 /// 添加横线
 - (void)viewInsertSplitIsContainsTop:(BOOL)top topPadding:(CGFloat)topPadding andBottom:(BOOL)bottom bottomPadding:(CGFloat)bottomPadding;
 
+/// 添加上横线
+/// 'color' 为nil 则默认为 ‘QBSpliterColor’
+- (void)viewInsertTopSpliterWithColor:(UIColor *)color appendPadding:(CGFloat)padding;
+
+/// 添加下横线
+- (void)viewInsertBottomSpliterWithColor:(UIColor *)color appendPadding:(CGFloat)padding;
+
 /// 宽度
 - (CGFloat)width;
 

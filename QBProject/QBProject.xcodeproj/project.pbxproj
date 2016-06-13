@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F01C0121D0E945A009E762E /* QBUsernameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F01C0111D0E945A009E762E /* QBUsernameView.m */; };
+		2F01C0151D0E9465009E762E /* QBPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F01C0141D0E9465009E762E /* QBPasswordView.m */; };
+		2F01C0171D0E9BC8009E762E /* user_background_city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F01C0161D0E9BC8009E762E /* user_background_city.jpg */; };
+		2F01C01B1D0E9BCF009E762E /* user_login_username.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F01C0191D0E9BCF009E762E /* user_login_username.png */; };
+		2F01C01D1D0E9D95009E762E /* user_login_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F01C01C1D0E9D95009E762E /* user_login_password.png */; };
 		2F4860871D0BCEFF001316C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860861D0BCEFF001316C0 /* main.m */; };
 		2F48608A1D0BCEFF001316C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4860891D0BCEFF001316C0 /* AppDelegate.m */; };
 		2F4860921D0BCEFF001316C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4860911D0BCEFF001316C0 /* Assets.xcassets */; };
@@ -98,7 +103,6 @@
 		2FFDDEC71D0E5D8F002803B0 /* tabbar_eat_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC51D0E5D8F002803B0 /* tabbar_eat_normal.png */; };
 		2FFDDEC81D0E5D8F002803B0 /* tabbar_eat_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC61D0E5D8F002803B0 /* tabbar_eat_selected.png */; };
 		2FFDDECC1D0E5EF2002803B0 /* QBUserHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDECB1D0E5EF2002803B0 /* QBUserHeaderView.m */; };
-		2FFDDED01D0E6CA6002803B0 /* user_background_city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDECF1D0E6CA6002803B0 /* user_background_city.jpg */; };
 		2FFDDED51D0E7EF6002803B0 /* qb_user_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDED41D0E7EF6002803B0 /* qb_user_default.png */; };
 		2FFDDED81D0E7F32002803B0 /* QBUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDED71D0E7F32002803B0 /* QBUserModel.m */; };
 		2FFDDEDB1D0E81DA002803B0 /* QBSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEDA1D0E81DA002803B0 /* QBSettingViewModel.m */; };
@@ -126,6 +130,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F01C0101D0E945A009E762E /* QBUsernameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUsernameView.h; sourceTree = "<group>"; };
+		2F01C0111D0E945A009E762E /* QBUsernameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUsernameView.m; sourceTree = "<group>"; };
+		2F01C0131D0E9465009E762E /* QBPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBPasswordView.h; sourceTree = "<group>"; };
+		2F01C0141D0E9465009E762E /* QBPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBPasswordView.m; sourceTree = "<group>"; };
+		2F01C0161D0E9BC8009E762E /* user_background_city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_background_city.jpg; sourceTree = "<group>"; };
+		2F01C0191D0E9BCF009E762E /* user_login_username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_login_username.png; sourceTree = "<group>"; };
+		2F01C01C1D0E9D95009E762E /* user_login_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_login_password.png; sourceTree = "<group>"; };
 		2F4860821D0BCEFF001316C0 /* QBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4860861D0BCEFF001316C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F4860881D0BCEFF001316C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -306,7 +317,6 @@
 		2FFDDEC61D0E5D8F002803B0 /* tabbar_eat_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_eat_selected.png; sourceTree = "<group>"; };
 		2FFDDECA1D0E5EF2002803B0 /* QBUserHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUserHeaderView.h; sourceTree = "<group>"; };
 		2FFDDECB1D0E5EF2002803B0 /* QBUserHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUserHeaderView.m; sourceTree = "<group>"; };
-		2FFDDECF1D0E6CA6002803B0 /* user_background_city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_background_city.jpg; sourceTree = "<group>"; };
 		2FFDDED41D0E7EF6002803B0 /* qb_user_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qb_user_default.png; sourceTree = "<group>"; };
 		2FFDDED61D0E7F32002803B0 /* QBUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUserModel.h; sourceTree = "<group>"; };
 		2FFDDED71D0E7F32002803B0 /* QBUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUserModel.m; sourceTree = "<group>"; };
@@ -352,6 +362,10 @@
 		2F01C00F1D0E92D3009E762E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				2F01C0101D0E945A009E762E /* QBUsernameView.h */,
+				2F01C0111D0E945A009E762E /* QBUsernameView.m */,
+				2F01C0131D0E9465009E762E /* QBPasswordView.h */,
+				2F01C0141D0E9465009E762E /* QBPasswordView.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -880,7 +894,8 @@
 		2FFDDECD1D0E6C95002803B0 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				2FFDDECF1D0E6CA6002803B0 /* user_background_city.jpg */,
+				2F01C01C1D0E9D95009E762E /* user_login_password.png */,
+				2F01C0191D0E9BCF009E762E /* user_login_username.png */,
 				2FFDDECE1D0E6C95002803B0 /* Background */,
 			);
 			path = User;
@@ -889,6 +904,7 @@
 		2FFDDECE1D0E6C95002803B0 /* Background */ = {
 			isa = PBXGroup;
 			children = (
+				2F01C0161D0E9BC8009E762E /* user_background_city.jpg */,
 			);
 			path = Background;
 			sourceTree = "<group>";
@@ -1026,8 +1042,10 @@
 			files = (
 				2F48620F1D0BCF82001316C0 /* tyloding_baby_plane.png in Resources */,
 				2F4862011D0BCF82001316C0 /* TY_navibar_return_arrow.png in Resources */,
+				2F01C01B1D0E9BCF009E762E /* user_login_username.png in Resources */,
 				2F48621E1D0BCF82001316C0 /* mm_network_fail.png in Resources */,
 				2F48620E1D0BCF82001316C0 /* tyloding_baby_face.png in Resources */,
+				2F01C01D1D0E9D95009E762E /* user_login_password.png in Resources */,
 				2FFDDEC81D0E5D8F002803B0 /* tabbar_eat_selected.png in Resources */,
 				2F4860921D0BCEFF001316C0 /* Assets.xcassets in Resources */,
 				2FFDDEC71D0E5D8F002803B0 /* tabbar_eat_normal.png in Resources */,
@@ -1038,11 +1056,11 @@
 				2F48621C1D0BCF82001316C0 /* mm_network_empty.png in Resources */,
 				2FFDDEC41D0E5CD0002803B0 /* tabbar_user_selected.png in Resources */,
 				2FFDDEBC1D0E5B7D002803B0 /* tabbar_home_selected.png in Resources */,
-				2FFDDED01D0E6CA6002803B0 /* user_background_city.jpg in Resources */,
 				2FFDDEC31D0E5CD0002803B0 /* tabbar_user_normal.png in Resources */,
 				2F48620D1D0BCF82001316C0 /* tyloding_baby_eye.png in Resources */,
 				2F48621B1D0BCF82001316C0 /* mm_loading_text.png in Resources */,
 				2FFDDEA81D0E5725002803B0 /* home_star.png in Resources */,
+				2F01C0171D0E9BC8009E762E /* user_background_city.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1140,6 +1158,7 @@
 				2FFDDEA51D0E4FBE002803B0 /* QBUserController.m in Sources */,
 				2FFDDEA21D0E4FB5002803B0 /* QBMenuController.m in Sources */,
 				2FFDDE901D0E4EDD002803B0 /* QBTabbarController.m in Sources */,
+				2F01C0121D0E945A009E762E /* QBUsernameView.m in Sources */,
 				2F4861F11D0BCF82001316C0 /* UITextField+TYKit.m in Sources */,
 				2F4861F71D0BCF82001316C0 /* TYViewModelServiceImpl.m in Sources */,
 				2F4861F41D0BCF82001316C0 /* TYBarEntity.m in Sources */,
@@ -1187,6 +1206,7 @@
 				2F4861F51D0BCF82001316C0 /* TYNavigationStack.m in Sources */,
 				2F4862111D0BCF82001316C0 /* TYMasker.m in Sources */,
 				2F4861F31D0BCF82001316C0 /* UIViewController+TYKit.m in Sources */,
+				2F01C0151D0E9465009E762E /* QBPasswordView.m in Sources */,
 				2FFDDECC1D0E5EF2002803B0 /* QBUserHeaderView.m in Sources */,
 				2F4862191D0BCF82001316C0 /* UIScrollView+TYPullReload.m in Sources */,
 				2F4861E41D0BCF82001316C0 /* NSDate+TYKit.m in Sources */,
