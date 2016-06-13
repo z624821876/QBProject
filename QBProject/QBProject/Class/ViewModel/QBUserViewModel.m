@@ -18,7 +18,6 @@
     self.title = @"我的区域";
     self.isHiddenBackBarButton = YES;
     self.userModel = [QBUserModel currUser];
-    self.dataSource = @[@"测试项目"];
     
     self.userHeadCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
         if ([QBUserModel isUserLogin].boolValue) {
