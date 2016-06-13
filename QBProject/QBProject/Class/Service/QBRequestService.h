@@ -10,6 +10,9 @@
 
 @interface QBRequestService : NSObject
 
+/// 单例
++ (QBRequestService *)sharedService;
+
 
 
 @end

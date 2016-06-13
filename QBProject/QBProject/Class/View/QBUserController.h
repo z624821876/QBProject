@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Quincy Yan. All rights reserved.
 //
 
-#import "TYViewController.h"
+#import "TYTableViewController.h"
 
-@interface QBUserController : TYViewController
+@interface QBUserController : TYTableViewController
 
 @end

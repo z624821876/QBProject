@@ -6,4 +6,5 @@ pod 'YYModel'
 pod 'AFNetworking'
 pod 'FDFullscreenPopGesture', '~> 1.1'
 pod 'Bugtags'
+pod 'APParallaxHeader'
 

@@ -13,7 +13,7 @@
 - (void)initialize {
     [super initialize];
     
-    self.title = @"吃货";
+    self.title = @"吃货专栏";
     self.isHiddenBackBarButton = YES;
 }
 

@@ -97,6 +97,14 @@
 		2FFDDEC41D0E5CD0002803B0 /* tabbar_user_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC21D0E5CD0002803B0 /* tabbar_user_selected.png */; };
 		2FFDDEC71D0E5D8F002803B0 /* tabbar_eat_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC51D0E5D8F002803B0 /* tabbar_eat_normal.png */; };
 		2FFDDEC81D0E5D8F002803B0 /* tabbar_eat_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC61D0E5D8F002803B0 /* tabbar_eat_selected.png */; };
+		2FFDDECC1D0E5EF2002803B0 /* QBUserHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDECB1D0E5EF2002803B0 /* QBUserHeaderView.m */; };
+		2FFDDED01D0E6CA6002803B0 /* user_background_city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDECF1D0E6CA6002803B0 /* user_background_city.jpg */; };
+		2FFDDED51D0E7EF6002803B0 /* qb_user_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDED41D0E7EF6002803B0 /* qb_user_default.png */; };
+		2FFDDED81D0E7F32002803B0 /* QBUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDED71D0E7F32002803B0 /* QBUserModel.m */; };
+		2FFDDEDB1D0E81DA002803B0 /* QBSettingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEDA1D0E81DA002803B0 /* QBSettingViewModel.m */; };
+		2FFDDEDE1D0E81EA002803B0 /* QBSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEDD1D0E81EA002803B0 /* QBSettingController.m */; };
+		2FFDDEE41D0E8265002803B0 /* QBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEE31D0E8265002803B0 /* QBLoginController.m */; };
+		2FFDDEE71D0E8271002803B0 /* QBLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEE61D0E8271002803B0 /* QBLoginViewModel.m */; };
 		56CB3F23374290EDEE41DDEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C8E7F7CAE5071A262BB239 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -297,6 +305,20 @@
 		2FFDDEC21D0E5CD0002803B0 /* tabbar_user_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_user_selected.png; sourceTree = "<group>"; };
 		2FFDDEC51D0E5D8F002803B0 /* tabbar_eat_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_eat_normal.png; sourceTree = "<group>"; };
 		2FFDDEC61D0E5D8F002803B0 /* tabbar_eat_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_eat_selected.png; sourceTree = "<group>"; };
+		2FFDDECA1D0E5EF2002803B0 /* QBUserHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUserHeaderView.h; sourceTree = "<group>"; };
+		2FFDDECB1D0E5EF2002803B0 /* QBUserHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUserHeaderView.m; sourceTree = "<group>"; };
+		2FFDDECF1D0E6CA6002803B0 /* user_background_city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_background_city.jpg; sourceTree = "<group>"; };
+		2FFDDED41D0E7EF6002803B0 /* qb_user_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qb_user_default.png; sourceTree = "<group>"; };
+		2FFDDED61D0E7F32002803B0 /* QBUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUserModel.h; sourceTree = "<group>"; };
+		2FFDDED71D0E7F32002803B0 /* QBUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUserModel.m; sourceTree = "<group>"; };
+		2FFDDED91D0E81DA002803B0 /* QBSettingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBSettingViewModel.h; sourceTree = "<group>"; };
+		2FFDDEDA1D0E81DA002803B0 /* QBSettingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBSettingViewModel.m; sourceTree = "<group>"; };
+		2FFDDEDC1D0E81EA002803B0 /* QBSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBSettingController.h; sourceTree = "<group>"; };
+		2FFDDEDD1D0E81EA002803B0 /* QBSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBSettingController.m; sourceTree = "<group>"; };
+		2FFDDEE21D0E8265002803B0 /* QBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBLoginController.h; sourceTree = "<group>"; };
+		2FFDDEE31D0E8265002803B0 /* QBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBLoginController.m; sourceTree = "<group>"; };
+		2FFDDEE51D0E8271002803B0 /* QBLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBLoginViewModel.h; sourceTree = "<group>"; };
+		2FFDDEE61D0E8271002803B0 /* QBLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBLoginViewModel.m; sourceTree = "<group>"; };
 		D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D9C8E7F7CAE5071A262BB239 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -415,6 +437,8 @@
 		2F4860BA1D0BCF82001316C0 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				2FFDDED11D0E7E8D002803B0 /* Default */,
+				2FFDDECD1D0E6C95002803B0 /* User */,
 				2FFDDEAC1D0E5A83002803B0 /* Tabbar */,
 				2FFDDEA61D0E570F002803B0 /* Home */,
 			);
@@ -431,6 +455,8 @@
 		2F4860BF1D0BCF82001316C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2FFDDED61D0E7F32002803B0 /* QBUserModel.h */,
+				2FFDDED71D0E7F32002803B0 /* QBUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -456,6 +482,7 @@
 		2F4860D01D0BCF82001316C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2FFDDEC91D0E5ED5002803B0 /* User */,
 				2F4860D11D0BCF82001316C0 /* Cell */,
 				2FFDDE8E1D0E4EDD002803B0 /* QBTabbarController.h */,
 				2FFDDE8F1D0E4EDD002803B0 /* QBTabbarController.m */,
@@ -465,6 +492,10 @@
 				2FFDDEA11D0E4FB5002803B0 /* QBMenuController.m */,
 				2FFDDEA31D0E4FBE002803B0 /* QBUserController.h */,
 				2FFDDEA41D0E4FBE002803B0 /* QBUserController.m */,
+				2FFDDEDC1D0E81EA002803B0 /* QBSettingController.h */,
+				2FFDDEDD1D0E81EA002803B0 /* QBSettingController.m */,
+				2FFDDEE21D0E8265002803B0 /* QBLoginController.h */,
+				2FFDDEE31D0E8265002803B0 /* QBLoginController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -489,6 +520,10 @@
 				2FFDDE981D0E4F85002803B0 /* QBMenuViewModel.m */,
 				2FFDDE9A1D0E4F99002803B0 /* QBUserViewModel.h */,
 				2FFDDE9B1D0E4F99002803B0 /* QBUserViewModel.m */,
+				2FFDDED91D0E81DA002803B0 /* QBSettingViewModel.h */,
+				2FFDDEDA1D0E81DA002803B0 /* QBSettingViewModel.m */,
+				2FFDDEE51D0E8271002803B0 /* QBLoginViewModel.h */,
+				2FFDDEE61D0E8271002803B0 /* QBLoginViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -833,6 +868,39 @@
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
+		2FFDDEC91D0E5ED5002803B0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDDECA1D0E5EF2002803B0 /* QBUserHeaderView.h */,
+				2FFDDECB1D0E5EF2002803B0 /* QBUserHeaderView.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2FFDDECD1D0E6C95002803B0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDDECF1D0E6CA6002803B0 /* user_background_city.jpg */,
+				2FFDDECE1D0E6C95002803B0 /* Background */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2FFDDECE1D0E6C95002803B0 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		2FFDDED11D0E7E8D002803B0 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDDED41D0E7EF6002803B0 /* qb_user_default.png */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
 		EC9AEBBC68FEEDE5B52CBCE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -957,10 +1025,12 @@
 				2FFDDEC71D0E5D8F002803B0 /* tabbar_eat_normal.png in Resources */,
 				2FFDDEBB1D0E5B7D002803B0 /* tabbar_home_normal.png in Resources */,
 				2F48621A1D0BCF82001316C0 /* mm_loading_spot.png in Resources */,
+				2FFDDED51D0E7EF6002803B0 /* qb_user_default.png in Resources */,
 				2F48621D1D0BCF82001316C0 /* mm_network_error.png in Resources */,
 				2F48621C1D0BCF82001316C0 /* mm_network_empty.png in Resources */,
 				2FFDDEC41D0E5CD0002803B0 /* tabbar_user_selected.png in Resources */,
 				2FFDDEBC1D0E5B7D002803B0 /* tabbar_home_selected.png in Resources */,
+				2FFDDED01D0E6CA6002803B0 /* user_background_city.jpg in Resources */,
 				2FFDDEC31D0E5CD0002803B0 /* tabbar_user_normal.png in Resources */,
 				2F48620D1D0BCF82001316C0 /* tyloding_baby_eye.png in Resources */,
 				2F48621B1D0BCF82001316C0 /* mm_loading_text.png in Resources */,
@@ -1040,10 +1110,15 @@
 				2F48608A1D0BCEFF001316C0 /* AppDelegate.m in Sources */,
 				2F4862241D0BCF82001316C0 /* TPKeyboardAvoidingTableView.m in Sources */,
 				2F4862041D0BCF82001316C0 /* TYTableViewModel.m in Sources */,
+				2FFDDED81D0E7F32002803B0 /* QBUserModel.m in Sources */,
 				2F4861E31D0BCF82001316C0 /* NSArray+TYKit.m in Sources */,
 				2F4860871D0BCEFF001316C0 /* main.m in Sources */,
+				2FFDDEE41D0E8265002803B0 /* QBLoginController.m in Sources */,
+				2FFDDEE71D0E8271002803B0 /* QBLoginViewModel.m in Sources */,
+				2FFDDEDB1D0E81DA002803B0 /* QBSettingViewModel.m in Sources */,
 				2F48620C1D0BCF82001316C0 /* TYHTTPViewModel.m in Sources */,
 				2F4862221D0BCF82001316C0 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				2FFDDEDE1D0E81EA002803B0 /* QBSettingController.m in Sources */,
 				2F4862141D0BCF82001316C0 /* UINavigationBar+TYKit.m in Sources */,
 				2F4862031D0BCF82001316C0 /* TYTabbarViewModel.m in Sources */,
 				2F48620B1D0BCF82001316C0 /* TYHTTPProgressBar.m in Sources */,
@@ -1104,6 +1179,7 @@
 				2F4861F51D0BCF82001316C0 /* TYNavigationStack.m in Sources */,
 				2F4862111D0BCF82001316C0 /* TYMasker.m in Sources */,
 				2F4861F31D0BCF82001316C0 /* UIViewController+TYKit.m in Sources */,
+				2FFDDECC1D0E5EF2002803B0 /* QBUserHeaderView.m in Sources */,
 				2F4862191D0BCF82001316C0 /* UIScrollView+TYPullReload.m in Sources */,
 				2F4861E41D0BCF82001316C0 /* NSDate+TYKit.m in Sources */,
 				2F4861FA1D0BCF82001316C0 /* TYCollectionViewController.m in Sources */,

@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - APParallaxHeader (0.1.6)
   - Bugtags (1.2.6)
   - FDFullscreenPopGesture (1.1)
   - Masonry (1.0.1)
@@ -31,6 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - APParallaxHeader (= 0.1.6)
   - Bugtags
   - FDFullscreenPopGesture (~> 1.1)
   - Masonry
@@ -40,6 +42,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
   Bugtags: 10d4b0c089b34f6e28877e5830218627ebd14dbb
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df

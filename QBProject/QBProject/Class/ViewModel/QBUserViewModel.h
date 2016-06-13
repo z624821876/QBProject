@@ -6,8 +6,14 @@
 //  Copyright © 2016年 Quincy Yan. All rights reserved.
 //
 
-#import "TYViewModel.h"
+#import "TYTableViewModel.h"
 
-@interface QBUserViewModel : TYViewModel
+@interface QBUserViewModel : TYTableViewModel
+
+/// 头像点击事件
+@property (nonatomic,strong) RACCommand *userHeadCommand;
+
+/// 用户
+@property (nonatomic,strong) QBUserModel *userModel;
 
 @end

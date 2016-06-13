@@ -17,6 +17,7 @@
 #import <ReactiveCocoa.h>
 #import "TPKeyboardAvoidingTableView.h"
 #import "TPKeyboardAvoidingScrollView.h"
+#import <UIScrollView+APParallaxHeader.h>
 
 /// Framework
 #import "TYKitHeader.h"
@@ -38,8 +39,13 @@ static inline NSDictionary *viewModelMapping() {
     return @{@"QBTabbarViewModel":@"QBTabbarController",
              @"QBHomeViewModel":@"QBHomeController",
              @"QBMenuViewModel":@"QBMenuController",
-             @"QBUserViewModel":@"QBUserController"};
+             @"QBUserViewModel":@"QBUserController",
+             @"QBSettingViewModel":@"QBSettingController",
+             @"QBLoginViewModel":@"QBLoginController"};
 };
+
+/// App Relates
+#import "QBUserModel.h"
 
 /// Colors
 /// 用于重要级文字信息 内页标题信息
