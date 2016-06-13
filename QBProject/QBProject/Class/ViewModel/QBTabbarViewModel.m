@@ -32,8 +32,8 @@
     
     NSMutableArray *entitys = [[NSMutableArray alloc] init];
     NSArray *titles = @[@"首页",@"吃货",@"我的"];
-    NSArray *icons = @[@"tabbar_index",@"tabbar_discover",@"tabbar_user"];
-    NSArray *selectedIcons = @[@"tabbar_index_selected",@"tabbar_discover_selected",@"tabbar_user_selected"];
+    NSArray *icons = @[@"tabbar_home_normal",@"tabbar_eat_normal",@"tabbar_user_normal"];
+    NSArray *selectedIcons = @[@"tabbar_home_selected",@"tabbar_eat_selected",@"tabbar_user_selected"];
     
     for (int i = 0; i < 3; i++) {
         TYTabbarEntity *entity = [[TYTabbarEntity alloc] init];

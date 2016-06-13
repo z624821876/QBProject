@@ -50,7 +50,7 @@ static inline NSDictionary *viewModelMapping() {
 #define QBAssistTextColor [UIColor colorWithHexString:@"999999"]
 /// 分割线颜色
 #define QBSpliterColor [UIColor colorWithHexString:@"d7d7d7"]
-/// App主题颜色
+/// App主题颜色//34C1A3
 #define QBThemeColor UIColorFromRGBBytes(52, 193, 163)
 /// App主题字体颜色
 #define QBThemeTextColor UIColorFromRGBBytes(45, 62, 79)

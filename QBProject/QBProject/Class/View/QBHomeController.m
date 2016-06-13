@@ -7,31 +7,41 @@
 //
 
 #import "QBHomeController.h"
+#import "QBHomeViewModel.h"
+#import "QBDisclosureCell.h"
 
 @interface QBHomeController ()
 
+@property (nonatomic,strong) QBHomeViewModel *viewModel;
 @end
 
 @implementation QBHomeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self.tableView registerClass:[QBDisclosureCell class] forCellReuseIdentifier:@"QBDisclosureCell"];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)bindViewModel {
+    [super bindViewModel];
+    
+    @weakify(self);
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    QBDisclosureCell *cell = [tableView dequeueReusableCellWithIdentifier:@"QBDisclosureCell"];
+    [cell bindWithDataSource:self.viewModel.dataSource[indexPath.row] indexPath:indexPath];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 @end

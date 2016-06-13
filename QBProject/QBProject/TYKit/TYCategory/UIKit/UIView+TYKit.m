@@ -91,7 +91,7 @@ static char blockKey;
 
 -(void)viewInsertSplitIsContainsTop:(BOOL)top topPadding:(CGFloat)topPadding andBottom:(BOOL)bottom bottomPadding:(CGFloat)bottomPadding{
     if (top){
-        UIView *topLine = [UIView viewWithColor:[UIColor colorWithHexString:@"d7d7d7"]];
+        UIView *topLine = [UIView viewWithColor:QBSpliterColor];
         [self addSubview:topLine];
         
         [topLine mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -101,7 +101,7 @@ static char blockKey;
         }];
     }
     if (bottom){
-        UIView *bottomLine = [UIView viewWithColor:[UIColor colorWithHexString:@"d7d7d7"]];
+        UIView *bottomLine = [UIView viewWithColor:QBSpliterColor];
         [self addSubview:bottomLine];
         
         [bottomLine mas_makeConstraints:^(MASConstraintMaker *make) {

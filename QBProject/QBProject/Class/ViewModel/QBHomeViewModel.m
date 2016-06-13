@@ -15,6 +15,11 @@
     
     self.title = @"主页";
     self.isHiddenBackBarButton = YES;
+    
+    self.dataSource = @[@{@"property":@"灌水区域",
+                          @"image":@"home_star"},
+                        @{@"property":@"面试吐槽",
+                          @"image":@"home_star"},];
 }
 
 @end

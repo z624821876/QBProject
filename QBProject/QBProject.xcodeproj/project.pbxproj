@@ -89,6 +89,14 @@
 		2FFDDE9F1D0E4FA8002803B0 /* QBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDE9E1D0E4FA8002803B0 /* QBHomeController.m */; };
 		2FFDDEA21D0E4FB5002803B0 /* QBMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEA11D0E4FB5002803B0 /* QBMenuController.m */; };
 		2FFDDEA51D0E4FBE002803B0 /* QBUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEA41D0E4FBE002803B0 /* QBUserController.m */; };
+		2FFDDEA81D0E5725002803B0 /* home_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEA71D0E5725002803B0 /* home_star.png */; };
+		2FFDDEAB1D0E5754002803B0 /* QBDisclosureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDDEAA1D0E5754002803B0 /* QBDisclosureCell.m */; };
+		2FFDDEBB1D0E5B7D002803B0 /* tabbar_home_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEB71D0E5B7D002803B0 /* tabbar_home_normal.png */; };
+		2FFDDEBC1D0E5B7D002803B0 /* tabbar_home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEB81D0E5B7D002803B0 /* tabbar_home_selected.png */; };
+		2FFDDEC31D0E5CD0002803B0 /* tabbar_user_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC11D0E5CD0002803B0 /* tabbar_user_normal.png */; };
+		2FFDDEC41D0E5CD0002803B0 /* tabbar_user_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC21D0E5CD0002803B0 /* tabbar_user_selected.png */; };
+		2FFDDEC71D0E5D8F002803B0 /* tabbar_eat_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC51D0E5D8F002803B0 /* tabbar_eat_normal.png */; };
+		2FFDDEC81D0E5D8F002803B0 /* tabbar_eat_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDDEC61D0E5D8F002803B0 /* tabbar_eat_selected.png */; };
 		56CB3F23374290EDEE41DDEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C8E7F7CAE5071A262BB239 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -280,6 +288,15 @@
 		2FFDDEA11D0E4FB5002803B0 /* QBMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBMenuController.m; sourceTree = "<group>"; };
 		2FFDDEA31D0E4FBE002803B0 /* QBUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBUserController.h; sourceTree = "<group>"; };
 		2FFDDEA41D0E4FBE002803B0 /* QBUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBUserController.m; sourceTree = "<group>"; };
+		2FFDDEA71D0E5725002803B0 /* home_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_star.png; sourceTree = "<group>"; };
+		2FFDDEA91D0E5754002803B0 /* QBDisclosureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDisclosureCell.h; sourceTree = "<group>"; };
+		2FFDDEAA1D0E5754002803B0 /* QBDisclosureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDisclosureCell.m; sourceTree = "<group>"; };
+		2FFDDEB71D0E5B7D002803B0 /* tabbar_home_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_home_normal.png; sourceTree = "<group>"; };
+		2FFDDEB81D0E5B7D002803B0 /* tabbar_home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_home_selected.png; sourceTree = "<group>"; };
+		2FFDDEC11D0E5CD0002803B0 /* tabbar_user_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_user_normal.png; sourceTree = "<group>"; };
+		2FFDDEC21D0E5CD0002803B0 /* tabbar_user_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_user_selected.png; sourceTree = "<group>"; };
+		2FFDDEC51D0E5D8F002803B0 /* tabbar_eat_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_eat_normal.png; sourceTree = "<group>"; };
+		2FFDDEC61D0E5D8F002803B0 /* tabbar_eat_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_eat_selected.png; sourceTree = "<group>"; };
 		D7190819B986E8B7981A3A7A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D9C8E7F7CAE5071A262BB239 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -398,6 +415,8 @@
 		2F4860BA1D0BCF82001316C0 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				2FFDDEAC1D0E5A83002803B0 /* Tabbar */,
+				2FFDDEA61D0E570F002803B0 /* Home */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -453,6 +472,8 @@
 		2F4860D11D0BCF82001316C0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				2FFDDEA91D0E5754002803B0 /* QBDisclosureCell.h */,
+				2FFDDEAA1D0E5754002803B0 /* QBDisclosureCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -791,6 +812,27 @@
 			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
+		2FFDDEA61D0E570F002803B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDDEA71D0E5725002803B0 /* home_star.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2FFDDEAC1D0E5A83002803B0 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDDEC51D0E5D8F002803B0 /* tabbar_eat_normal.png */,
+				2FFDDEC61D0E5D8F002803B0 /* tabbar_eat_selected.png */,
+				2FFDDEC11D0E5CD0002803B0 /* tabbar_user_normal.png */,
+				2FFDDEC21D0E5CD0002803B0 /* tabbar_user_selected.png */,
+				2FFDDEB71D0E5B7D002803B0 /* tabbar_home_normal.png */,
+				2FFDDEB81D0E5B7D002803B0 /* tabbar_home_selected.png */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		EC9AEBBC68FEEDE5B52CBCE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,12 +952,19 @@
 				2F4862011D0BCF82001316C0 /* TY_navibar_return_arrow.png in Resources */,
 				2F48621E1D0BCF82001316C0 /* mm_network_fail.png in Resources */,
 				2F48620E1D0BCF82001316C0 /* tyloding_baby_face.png in Resources */,
+				2FFDDEC81D0E5D8F002803B0 /* tabbar_eat_selected.png in Resources */,
 				2F4860921D0BCEFF001316C0 /* Assets.xcassets in Resources */,
+				2FFDDEC71D0E5D8F002803B0 /* tabbar_eat_normal.png in Resources */,
+				2FFDDEBB1D0E5B7D002803B0 /* tabbar_home_normal.png in Resources */,
 				2F48621A1D0BCF82001316C0 /* mm_loading_spot.png in Resources */,
 				2F48621D1D0BCF82001316C0 /* mm_network_error.png in Resources */,
 				2F48621C1D0BCF82001316C0 /* mm_network_empty.png in Resources */,
+				2FFDDEC41D0E5CD0002803B0 /* tabbar_user_selected.png in Resources */,
+				2FFDDEBC1D0E5B7D002803B0 /* tabbar_home_selected.png in Resources */,
+				2FFDDEC31D0E5CD0002803B0 /* tabbar_user_normal.png in Resources */,
 				2F48620D1D0BCF82001316C0 /* tyloding_baby_eye.png in Resources */,
 				2F48621B1D0BCF82001316C0 /* mm_loading_text.png in Resources */,
+				2FFDDEA81D0E5725002803B0 /* home_star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,6 +1061,7 @@
 				2F4861F71D0BCF82001316C0 /* TYViewModelServiceImpl.m in Sources */,
 				2F4861F41D0BCF82001316C0 /* TYBarEntity.m in Sources */,
 				2F4862251D0BCF82001316C0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				2FFDDEAB1D0E5754002803B0 /* QBDisclosureCell.m in Sources */,
 				2F4862201D0BCF82001316C0 /* TYTabbar.m in Sources */,
 				2F4862081D0BCF82001316C0 /* TYLineButton.m in Sources */,
 				2F48620A1D0BCF82001316C0 /* TYHTTPController.m in Sources */,
